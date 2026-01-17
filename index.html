@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Samantha Salazar - Project with personal information, web assignments and final project</title>
+    <meta name="description" content="Website with personal information, web design assigments and future final project">
+    <meta name="author" content="Samantha Salazar">
+    <link rel="stylesheet" href="styles/index.css">
+    <link rel="stylesheet" href="styles/large.css">
+    <link rel="styles" href="styles/normalize.css">
+    <script src="scripts/index.js" defer></script>
+    <script src="scripts/getYear.js" defer></script>
+
+    <!--Google fonts  -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bubblegum+Sans&family=Cherry+Bomb+One&family=Quicksand:wght@300..700&display=swap" rel="stylesheet">
+    <!--End Google fonts  -->
+</head>
+<body>
+    <header>
+        <img src="images/square-s.svg" alt="site logo"  width="1" height="1">
+        <span>Samantha Salazar</span>
+        <button id="nav-button" class="hamburguer" aria-label="navigation"></button>
+    </header>
+    <nav id="nav-bar" class="navigation">
+        <ul>
+            <li class="current"><a href="#">Home</a></li>
+            <li><a href="#">Chamber Assignment</a></li>
+            <li><a href="#">Final Project</a></li>
+        </ul>
+    </nav>
+    <main>
+        <h1>Home</h1>
+        <div class="grid-container">
+        <section class="about-me">
+        <h2>About Me</h2>
+        <p>My name is Samantha Salazar, and I am currently studying Software Development at BYU-Pathway Worldwide. My major focuses on building responsive websites using HTML5, CSS, JavaScript. I have skills in object-oriented programming, UI/UX design, and dynamic page development. At university, I've worked on projects such as a concert webpage, the Eternal Quest app, and branded navigation layouts. These experiences have helped me refine my ability to create user-friendly, accessible, and visually consistent web applications.</p>
+        </section>
+        <section class="photo-section">
+        <h2>Student Photo</h2>
+        <img src="images/samantha-salazar.webp" alt="Samantha Salazar">
+        </section>
+        <section class="span-item">
+        <h2>Web Certificate Courses</h2>
+        <div class="button-container">
+        </div>
+        <div class="courses-container"></div>
+        <div class="credits-container"></div>
+        </section>
+        </div>
+    </main>
+    <footer>
+        <div class="icons">
+            <a href="https://github.com/sqsaay/" target="_blank" rel="noopener noreferrer">
+            <img src="images/github.svg" alt="Github account" height="40px">
+            </a>
+            <a href="https://www.linkedin.com/in/ssalazarq/" target="_blank" rel="noopener noreferrer">
+            <img src="images/linkedin-circle.svg" alt="LinkedIn account" height="40px">
+            </a>
+            <a href="https://x.com" target="_blank" rel="noopener noreferrer">
+            <img src="images/x-alt-circle.svg" alt="X" height="40px">
+            </a>
+        </div>
+        <div class="author-info">
+            <p>©️ <span id="currentYear"></span> • Samantha Salazar • Guatemala City</p>
+        </div>
+        <div class="last-modify">
+            <p>Last Modification: <span id="lastModify"></span></p>
+
+        </div>
+    </footer>
+</body>
+</html>

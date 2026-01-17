@@ -1,0 +1,60 @@
+@media (min-width: 321px){
+
+    .navigation{
+        margin: auto 5px;
+        display: block;
+    }
+
+    .hamburguer{
+        display: none;
+    }
+
+nav ul {
+    display: flex;
+    li {
+        flex: 1 1 100%;
+        justify-items: center;
+        
+    }
+}
+
+    /*Information Container*/
+    .grid-container{
+        display: grid;
+        grid-template-columns: 2fr 1fr;
+        grid-gap: 1rem;        
+    }
+
+    .span-item{
+        grid-column: span 2;
+        
+    }
+    section img{
+    padding: 3px;
+    width: 50%;
+    height: auto;
+    border-radius: 30rem;
+}
+
+/* Courses container*/
+.courses-container{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    gap: 1rem;
+    margin: 5px;
+}
+
+.courses-container section{
+    text-align: center;
+    border-radius: 5px;
+    background-color: var(--secondary-color);
+    color: var(--secondary-accent);
+}
+
+/*Footer*/
+#lastModify, #currentYear, footer p{
+    font-size: 15px;
+}
+
+
+}
