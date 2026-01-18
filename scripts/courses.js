@@ -89,26 +89,25 @@ const courses = [
 const sectionClass = document.querySelector('.button-container');
 if (sectionClass) {
     const buttonData = [
-        { label: 'All Courses', id: 'btn-1' },
-        { label: 'WDD Courses', id: 'btn-2' },
-        { label: 'CSE Courses', id: 'btn-3' }
+        { label: 'All Courses', class: 'btn-1' },
+        { label: 'WDD Courses', class: 'btn-2' },
+        { label: 'CSE Courses', class: 'btn-3' }
     ];
 
     buttonData.forEach(data => {
         const newButton = document.createElement('button');
 
         newButton.textContent = data.label;
-        newButton.id = data.id;
+        newButton.classList.add(data.class);
 
         sectionClass.appendChild(newButton);
     });
 }
 
-
 //Buttons
-const allCoursesBtn = document.querySelector('#btn-1');
-const wddCoursesBtn = document.querySelector('#btn-2');
-const cseCoursesBtn = document.querySelector('#btn-3');
+const allCoursesBtn = document.querySelector('.btn-1');
+const wddCoursesBtn = document.querySelector('.btn-2');
+const cseCoursesBtn = document.querySelector('.btn-3');
 
 createCoursesCard(courses, "all");
 createCreditParagraph(courses);
@@ -116,23 +115,27 @@ createCreditParagraph(courses);
 allCoursesBtn.addEventListener("click", () => {
     createCoursesCard(courses, "all");
     createCreditParagraph(courses);
-    allCoursesBtn.style.backgroundColor = "var(--secondary-accent)";
-    allCoursesBtn.style.color = "var(--secondary-color)";
-    allCoursesBtn.classList.add = "active";
+    wddCoursesBtn.removeAttribute('id');
+    cseCoursesBtn.removeAttribute('id');
+    allCoursesBtn.setAttribute('id','active_btn');
 });
 
 wddCoursesBtn.addEventListener("click", () => {
     const wddCards = courses.filter(course => course.subject === "WDD");
     createCoursesCard(wddCards, "wdd");
     createCreditParagraph(wddCards);
-    wddCoursesBtn.style.backgroundColor = "var(--secondary-accent)";
-    wddCoursesBtn.style.color = "var(--secondary-color)";
+    allCoursesBtn.removeAttribute('id');
+    cseCoursesBtn.removeAttribute('id');
+    wddCoursesBtn.setAttribute('id','active_btn');
 });
 
 cseCoursesBtn.addEventListener("click", () => {
     const cseCards = courses.filter(course => course.subject === "CSE");
     createCoursesCard(cseCards,"cse");
     createCreditParagraph(cseCards);
+    allCoursesBtn.removeAttribute('id');
+    wddCoursesBtn.removeAttribute('id');
+    cseCoursesBtn.setAttribute('id','active_btn');
 });
 
 //Create Courses Cards

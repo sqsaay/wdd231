@@ -3,31 +3,34 @@ lila #9b59b6
 rose: #a74165
 */
 
-:root{
+:root {
     --primary-color: #8D5F8C;
     --secondary-color: #6B3F69;
     --tertiary-color: #DDC3C3;
     --primary-accent: #ffffff;
     --secondary-accent: #dcc6e0;
     --tertiary-accent: #050709;
-    --span-fonts:"Cherry Bomb One", system-ui;
+    --span-fonts: "Cherry Bomb One", system-ui;
     --primary-fonts: "Quicksand", sans-serif;
 
 
 }
-*{
+
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     font-family: var(--primary-fonts);
 
 }
-span{
+
+span {
     font-family: var(--span-fonts);
     font-weight: normal;
     font-size: 25px;
 }
-h1{
+
+h1 {
     font-weight: bold;
     font-size: 25px;
     margin: auto 5px;
@@ -67,48 +70,53 @@ header img {
 
 /*------------Navigation bar--------------*/
 
-nav{
+nav {
     margin-top: 1rem;
     background-color: var(--secondary-color);
     border: solid 2px black;
     text-align: left;
 }
 
-ul{
+ul {
     margin: 0;
     list-style-type: none;
 }
 
-a{  
-    color: var(--tertiary-accent);
-    display: block;
-    padding: 5px;
-    text-decoration: none;  
-}
-& a:hover{
-    text-decoration:underline;
+.current a {
+    color: var(--tertiary-accent)
 }
 
-li{
+a {
+    color: var(--secondary-accent);
+    display: block;
+    padding: 5px;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+li {
     border: solid 1px black;
 }
 
-.navigation{
+.navigation {
     margin: 1rem;
     display: none;
 }
 
-.navigation.show{
+.navigation.show {
     display: block;
 }
 
 
-.navigation li.current{
+.navigation li.current {
     background-color: var(--secondary-accent);
-    font-weight: bold;  
+    font-weight: bold;
 }
 
-h2{
+h2 {
     display: block;
     width: 100%;
     background-color: var(--secondary-color);
@@ -119,29 +127,30 @@ h2{
     padding: 6px;
 }
 
-    section{       
+section {
     border: solid 2px black;
     width: 100%;
     height: auto;
-    }
+}
 
 /*----------------Main----------------*/
 
 /*Grid Container*/
-.grid-container{
+.grid-container {
     display: grid;
     grid-template-columns: 1fr;
-    grid-gap: 1rem;  
-    margin: auto 5px;      
+    grid-gap: 1rem;
+    margin: auto 5px;
 }
 
-section img{
+section img {
     width: 80%;
     height: auto;
     border-radius: 30rem;
     padding: 1rem;
 }
-.photo-section{
+
+.photo-section {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -149,70 +158,82 @@ section img{
 }
 
 /*Courses Container*/
-.button-container{
+.button-container {
     display: grid;
     grid-template-columns: auto auto auto;
     gap: 2rem;
     padding: 5px;
 }
 
-#btn-1, #btn-2, #btn-3{
+.btn-1,
+.btn-2,
+.btn-3 {
     background-color: var(--tertiary-color);
     color: var(--tertiary-accent);
     font-family: var(--span-fonts);
     font-size: 100%;
     border-radius: 5px;
     font-family: var(--primary-fonts);
-    font-weight:bolder;
+    font-weight: bolder;
     padding: 5px;
 }
 
-/*Courses Container*/
-.span-item{
-    border: none;
-    
+#active_btn {
+    background-color: var(--secondary-accent);
+    color: var(--secondary-color);
 }
 
-.courses-container{
+/*Courses Container*/
+.span-item {
+    border: none;
+
+}
+
+.courses-container {
     display: grid;
     grid-template-columns: auto;
     gap: 4px;
     margin: 5px;
     text-align: center;
 }
-.courses-container section{
+
+.courses-container section {
     background-color: var(--tertiary-color);
     color: var(--tertiary-accent);
     border-radius: 5px;
     font-size: smaller;
 }
+
 /*Sum of credits container*/
-.credits-container{
+.credits-container {
     padding: 5px;
     text-align: center;
 }
 
 /*----------------Footer----------------*/
 
-footer{
+footer {
     font-size: 13px;
 }
-.icons{
+
+.icons {
     display: flex;
     justify-content: center;
     gap: 1rem;
 }
 
-.icons a{
+.icons a {
     padding-bottom: 0;
 }
 
-#lastModify, #currentYear{
+#lastModify,
+#currentYear {
     font-family: var(--primary-fonts);
     font-size: 13px;
 }
 
-.author-info, .last-modify{
+.author-info,
+.last-modify {
     display: flex;
     justify-content: center;
     background-color: var(--primary-color);

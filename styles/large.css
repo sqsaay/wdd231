@@ -11,19 +11,18 @@
 
 nav ul {
     display: flex;
-    li {
+}
+  li {
         flex: 1 1 100%;
         justify-items: center;
-        
-        
     }
-    .current{
+
+    .current a{
         color: var(--tertiary-accent)
     }
     a{
         color: var(--secondary-accent);
     }
-}
 
     /*Information Container*/
     .grid-container{
