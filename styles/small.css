@@ -4,8 +4,8 @@ rose: #a74165
 */
 
 :root {
-    --primary-color: #8D5F8C;
-    --secondary-color: #6B3F69;
+    --primary-color: #8d5f8c8e;
+    --secondary-color: #6b3f69;
     --tertiary-color: #DDC3C3;
     --primary-accent: #ffffff;
     --secondary-accent: #dcc6e0;
@@ -170,7 +170,6 @@ section img {
 .btn-3 {
     background-color: var(--tertiary-color);
     color: var(--tertiary-accent);
-    font-family: var(--span-fonts);
     font-size: 100%;
     border-radius: 5px;
     font-family: var(--primary-fonts);
