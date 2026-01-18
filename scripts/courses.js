@@ -122,14 +122,14 @@ allCoursesBtn.addEventListener("click", () => {
 });
 
 wddCoursesBtn.addEventListener("click", () => {
-    createCoursesCard(courses, "wdd");
     const wddCards = courses.filter(course => course.subject === "WDD");
+    createCoursesCard(wddCards, "wdd");
     createCreditParagraph(wddCards);
 });
 
 cseCoursesBtn.addEventListener("click", () => {
-    createCoursesCard(courses, "cse");
     const cseCards = courses.filter(course => course.subject === "CSE");
+    createCoursesCard(cseCards,"cse");
     createCreditParagraph(cseCards);
 });
 
@@ -138,21 +138,32 @@ function createCoursesCard(filteredCards, type) {
     const container = document.querySelector('.courses-container');
     container.innerHTML = "";
 
-    courses.forEach(course => {
+    filteredCards.forEach(course => {
         const card = document.createElement("section");
         const name = document.createElement("h3");
         name.textContent = `${course.subject} ${course.number}`;
 
-        if (type === "all") {
-            card.style.backgroundColor = "var(--secondary-color)"; 
-        } else if (type === "wdd") {
-            card.style.backgroundColor =
-                course.subject === "WDD" ? "var(--secondary-color)" : "var(--tertiary-color)"; 
-        } else if (type === "cse") {
-            card.style.backgroundColor =
-                course.subject === "CSE" ? "var(--secondary-color)" : "var(--tertiary-color)"; 
-        }
 
+        if (course.completed === true){
+            if (type === "cse" ){
+                card.style.backgroundColor = "var(--secondary-accent)";
+                card.style.color = "var(--secondary-color)";
+                name.textContent = `✅ ${course.subject} ${course.number}`;
+            }
+            else if (type === "wdd" ){
+                card.style.backgroundColor = "var(--secondary-accent)";
+                card.style.color = "var(--secondary-color)";
+                name.textContent = `✅ ${course.subject} ${course.number}`;
+
+            }
+            else if(type == "all"){
+                card.style.backgroundColor = "var(--secondary-accent)";
+                card.style.color = "var(--secondary-color)";
+                name.textContent = `✅ ${course.subject} ${course.number}`;
+            }
+
+        }
+      
         card.appendChild(name);
         container.appendChild(card);
     });

@@ -48,7 +48,6 @@ header img {
     height: 100%;
     justify-self: center;
     padding-left: 1rem;
-    
 }
 
 .hamburguer {
@@ -116,7 +115,7 @@ h2{
     text-align: center;
     font-weight: bold;
     font-size: 25px;
-    padding: 1rem;
+    padding: 6px;
 }
 
     section{       
@@ -139,6 +138,7 @@ section img{
     width: 80%;
     height: auto;
     border-radius: 30rem;
+    padding: 1rem;
 }
 .photo-section{
     display: flex;
@@ -161,9 +161,27 @@ section img{
     font-family: var(--span-fonts);
     font-size: 100%;
     border-radius: 5px;
-    
+    font-family: var(--primary-fonts);
+    font-weight:bolder;
 }
 
+/*Courses Container*/
+.span-item{
+    border: none;
+}
+
+.courses-container{
+    display: grid;
+    grid-template-columns: auto;
+    gap: 4px;
+    margin: 5px;
+    text-align: center;
+}
+.courses-container section{
+    background-color: var(--tertiary-color);
+    color: var(--tertiary-accent);
+    border-radius: 5px;
+}
 /*Sum of credits container*/
 .credits-container{
     padding: 5px;
