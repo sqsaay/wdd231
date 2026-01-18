@@ -104,9 +104,6 @@ if (sectionClass) {
     });
 }
 
-function deleteCards(){
-    document.querySelector('.courses-container').innerHTML = "";
-}
 
 //Buttons
 const allCoursesBtn = document.querySelector('#btn-1');
@@ -119,12 +116,17 @@ createCreditParagraph(courses);
 allCoursesBtn.addEventListener("click", () => {
     createCoursesCard(courses, "all");
     createCreditParagraph(courses);
+    allCoursesBtn.style.backgroundColor = "var(--secondary-accent)";
+    allCoursesBtn.style.color = "var(--secondary-color)";
+    allCoursesBtn.classList.add = "active";
 });
 
 wddCoursesBtn.addEventListener("click", () => {
     const wddCards = courses.filter(course => course.subject === "WDD");
     createCoursesCard(wddCards, "wdd");
     createCreditParagraph(wddCards);
+    wddCoursesBtn.style.backgroundColor = "var(--secondary-accent)";
+    wddCoursesBtn.style.color = "var(--secondary-color)";
 });
 
 cseCoursesBtn.addEventListener("click", () => {

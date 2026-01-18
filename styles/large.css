@@ -15,6 +15,13 @@ nav ul {
         flex: 1 1 100%;
         justify-items: center;
         
+        
+    }
+    .current{
+        color: var(--tertiary-accent)
+    }
+    a{
+        color: var(--secondary-accent);
     }
 }
 
@@ -40,16 +47,13 @@ nav ul {
 .courses-container{
     display: grid;
     grid-template-columns: auto auto auto;
-    gap: 1rem;
-    margin: 5px;
+    text-align: center;
 }
-
 
 
 /*Footer*/
 #lastModify, #currentYear, footer p{
     font-size: 15px;
 }
-
 
 }
