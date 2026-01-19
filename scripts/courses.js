@@ -176,11 +176,7 @@ function createCoursesCard(filteredCards, type) {
 
 // Credits function
 function createCreditParagraph(filteredCards) {
-    let totalCredits = 0;
-    filteredCards.forEach(course => {
-            totalCredits += course.credits;
-       
-    });
+    const totalCredits = filteredCards.reduce((sum, course) => sum + course.credits, 0);
 
     const container = document.querySelector('.credits-container');
     container.innerHTML = ""; 
