@@ -178,9 +178,8 @@ function createCoursesCard(filteredCards, type) {
 function createCreditParagraph(filteredCards) {
     let totalCredits = 0;
     filteredCards.forEach(course => {
-        if (course.completed === true) {
             totalCredits += course.credits;
-        }
+       
     });
 
     const container = document.querySelector('.credits-container');

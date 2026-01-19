@@ -1,8 +1,3 @@
-/*
-lila #9b59b6
-rose: #a74165
-*/
-
 :root {
     --primary-color: #8d5f8c8e;
     --secondary-color: #6b3f69;
@@ -146,7 +141,6 @@ section {
 section img {
     width: 80%;
     height: auto;
-    border-radius: 30rem;
     padding: 1rem;
 }
 
