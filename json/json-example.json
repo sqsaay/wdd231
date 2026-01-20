@@ -1,0 +1,18 @@
+ {
+    "family_name" : "Samayoa",
+    "move_in_date": "01-01-2026",
+    "number_of_people": 2,
+    "visited_by_bishopric" : false,
+    "family_members":[
+        {
+        "name": "Samantha Samayoa",
+        "gender": "female",
+        "birtdate": "03-15-1999"
+        },
+        {
+        "name": "Jared Samayoa",
+        "gender": "male",
+        "birtdate": "12-18-1996"
+        }
+    ]
+}

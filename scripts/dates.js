@@ -5,3 +5,4 @@ document.getElementById('currentYear').textContent = currentYear;
 
 //Last update date
 document.getElementById('lastModify').innerHTML = document.lastModified;
+
