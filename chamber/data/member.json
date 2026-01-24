@@ -1,0 +1,193 @@
+{
+    "companies": [
+        {
+            "company_name": "Coletas.gt",
+            "company_address": [
+                {
+                    "street_and_number": "10a. Calle 6-73",
+                    "zone": 1,
+                    "city": "Villa Canales",
+                    "state": "Guatemala",
+                    "zip_code": "01069"
+                }
+            ],
+            "company_phone_number": "3241-0994",
+            "company_website": "https://www.instagram.com/coletas.gt",
+            "image_file": "https://raw.githubusercontent.com/sqsaay/wdd231/refs/heads/main/chamber/images/coletas-gt.jpg",
+            "membership": [
+                {
+                    "1": "member"
+                },
+                {
+                    "2": "silver"
+                },
+                {
+                    "3": "gold"
+                }
+            ],
+            "email_address": "coletas@gmail.com"
+        },
+        {
+            "company_name": "Minki.Gt",
+            "company_address": [
+                {
+                    "street_and_number": "10a. Avenida 3-13",
+                    "zone": 4,
+                    "city": "Guatemala",
+                    "state": "Guatemala",
+                    "zip_code": "01004"
+                }
+            ],
+            "company_phone_number": "3446 6232",
+            "company_website": "https://www.instagram.com/minki.gt/",
+            "image_file": "https://instagram.fgua2-2.fna.fbcdn.net/v/t51.82787-15/553297561_18069188900227117_2625799891549724104_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=108&ig_cache_key=MzczMDQwNzgwNTAwMzQxODU4MQ%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6InhwaWRzLjEwODB4MTM1MC5zZHIuQzMifQ%3D%3D&_nc_ohc=PvzeGz6n-TgQ7kNvwEJE7O9&_nc_oc=AdmHEj3dRJrdqE4gFaWW3_yNrDHOqT2zvBOEFoeZXH0xXnW_79ieSt8ayP9XKU3SL7HWIMuw9XgIpmI8RQbDwlKM&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=instagram.fgua2-2.fna&_nc_gid=aAU_n2yZKtzrCcz1nRUO3Q&oh=00_AfqeXQkAoaNE23ws5fcah6KodGBixmgX0g0HF5mbXsl3tA&oe=697AE25F",
+            "membership": [
+                {
+                    "1": "member"
+                },
+                {
+                    "2": "silver"
+                },
+                {
+                    "3": "gold"
+                }
+            ],
+            "email_address": "minki.gt@gmail.com"
+        },
+        {
+            "company_name": "Piccolinasgt",
+            "company_address": [
+                {
+                    "street_and_number": "2a. calle 7-25",
+                    "zone": 11,
+                    "city": "Mariscal",
+                    "state": "Guatemala",
+                    "zip_code": "01011"
+                }
+            ],
+            "company_phone_number": "2408 2312",
+            "company_website": "https://www.instagram.com/piccolinasgt/",
+            "image_file": "https://instagram.fgua2-1.fna.fbcdn.net/v/t51.82787-15/561340578_17853021087555312_3492112521812133447_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=104&ig_cache_key=MzczOTg0NTA1MTU2NTQxOTQ0Ng%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6InhwaWRzLjEyODR4MTI4NC5zZHIuQzMifQ%3D%3D&_nc_ohc=Hom5Fs7tAHYQ7kNvwG2o_md&_nc_oc=AdnlGiZbSJwAtZzvulwp_VLNPSKPHpdko8xGKNs9h2aGXcmlt_FuY1kZ-XGksTulpIe8UbdyvSKMxW7n8eby43HO&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=instagram.fgua2-1.fna&_nc_gid=0vc1BnyV1HmwzwMJKhNBNw&oh=00_AfqUdcbv9PSAdbbbz2REYwyxW76yLbTku9KB60FJ9Hr1cw&oe=697AE751",
+            "membership": [
+                {
+                    "1": "member"
+                },
+                {
+                    "2": "silver"
+                },
+                {
+                    "3": "gold"
+                }
+            ],
+            "email_address": "piccolinasgt@gmail.com"
+        },
+        {
+            "company_name": "Madelaine.gt",
+            "company_address": [
+                {
+                    "street_and_number": "1a. calle 8-24",
+                    "zone": 12,
+                    "city": "Atanasio Tzul",
+                    "state": "Guatemala",
+                    "zip_code": "01012"
+                }
+            ],
+            "company_phone_number": "2408 2332",
+            "company_website": "https://www.instagram.com/madelaine.gt",
+            "image_file": "https://instagram.fgua2-1.fna.fbcdn.net/v/t51.82787-15/584404439_18397310014127858_6016594077858205238_n.jpg?stp=dst-jpg_e15_tt6&_nc_cat=102&ig_cache_key=Mzc3ODg1ODUyMjAwNDUxNTA4NjE4Mzk3MzEwMDA4MTI3ODU4.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6InhwaWRzLjU0MHg5NjAuc2RyLkMzIn0%3D&_nc_ohc=fwceB0_oJSQQ7kNvwGSPdn-&_nc_oc=AdlcHmLMTTcmbfpq_C2p-uOwiFzZ1PRxZmExEod_OKMVHuFzqYozXaA3SPj4XSFnFIrEmWzy1uIGOcuIMW6wC4oW&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=instagram.fgua2-1.fna&_nc_gid=_i0UJo1MPHD4c_sP5DjtMA&oh=00_Afrq2In946-jbtMNIjig7bK2B9BeoGMRnnUG3y1KqTXJng&oe=697ADD46",
+            "membership": [
+                {
+                    "1": "member"
+                },
+                {
+                    "2": "silver"
+                },
+                {
+                    "3": "gold"
+                }
+            ],
+            "email_address": "madelainegt@gmail.com"
+        },
+        {
+            "company_name": "Puntocrochet.gt",
+            "company_address": [
+                {
+                    "street_and_number": "14a. avenida 10-23",
+                    "zone": 9,
+                    "city": "Guatemala",
+                    "state": "Guatemala",
+                    "zip_code": "01009"
+                }
+            ],
+            "company_phone_number": "2408 2311",
+            "company_website": "https://www.instagram.com/puntocrochet.gt/",
+            "image_file": "https://raw.githubusercontent.com/sqsaay/wdd231/refs/heads/main/chamber/images/puntocrochet-gt.jpg",
+            "membership": [
+                {
+                    "1": "member"
+                },
+                {
+                    "2": "silver"
+                },
+                {
+                    "3": "gold"
+                }
+            ],
+            "email_address": "puntocrochet.gt@gmail.com"
+        },
+        {
+            "company_name": "Merela",
+            "company_address": [
+                {
+                    "street_and_number": "21. avenida 21-25",
+                    "zone": 10,
+                    "city": "Guatemala",
+                    "state": "Guatemala",
+                    "zip_code": "01010"
+                }
+            ],
+            "company_phone_number": "2401 2312",
+            "company_website": "https://www.instagram.com/merela.gt/",
+            "image_file": "https://instagram.fgua2-2.fna.fbcdn.net/v/t51.82787-15/622128059_17921244057233279_4542350876646871097_n.jpg?stp=dst-jpegr_e35_s640x640_tt6&_nc_cat=111&ig_cache_key=MzgxNjYwODc3MTQyNzM0ODQ1OA%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6InhwaWRzLjE0NDB4MTkyMC5oZHIuQzMifQ%3D%3D&_nc_ohc=-Ik7WiwnpWwQ7kNvwHoJ5KT&_nc_oc=Adm8JgDZYmOKYrFfSaE7zQ4L9IjB70ceWPN6gd_4XErnaRbCJTv8s6nd1Qu3cDvN1nHQfErQlIFShZSl68003-25&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&se=-1&_nc_ht=instagram.fgua2-2.fna&_nc_gid=PTOD-BD2xeUgovLkwYeUzA&oh=00_AfoKoMQ2QpRyRH2YhJ_A9SW7Iv2TRfe9lF88vZLGDYjTgA&oe=697B066B",
+            "membership": [
+                {
+                    "1": "member"
+                },
+                {
+                    "2": "silver"
+                },
+                {
+                    "3": "gold"
+                }
+            ],
+            "email_address": "merelagt@gmail.com"
+        },
+        {
+            "company_name": "Naru",
+            "company_address": [
+                {
+                    "street_and_number": "12. calle 12-25",
+                    "zone": 16,
+                    "city": "Santa Amelia",
+                    "state": "Guatemala",
+                    "zip_code": "01016"
+                }
+            ],
+            "company_phone_number": "3421 2312",
+            "company_website": "https://www.instagram.com/naru.guate/",
+            "image_file": "https://instagram.fgua2-2.fna.fbcdn.net/v/t51.82787-15/560620866_18058677614440520_1774975894263217449_n.jpg?stp=dst-jpegr_e35_tt6&_nc_cat=108&ig_cache_key=MzczNzcyOTY0NjAyOTc5MjAwNQ%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6InhwaWRzLjE0NDB4MTQzOS5oZHIuQzMifQ%3D%3D&_nc_ohc=DuSaV5DWJMAQ7kNvwEwuTo-&_nc_oc=AdmN0JfeBShNEZck9HBdFmgVcsV_Y7HexRYo4CF8xPOhrXj5B7oYna9LvOTWsykfSGUeAPUqfwa8-s_jyJxPygdM&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&se=-1&_nc_ht=instagram.fgua2-2.fna&_nc_gid=68UVBcZ_1ZZcPIlRbPeKLQ&oh=00_AfobgsntNuheO6jN2nP4anhZk8cGp7WzEipsZFd4faha4w&oe=697AF326",
+            "membership": [
+                {
+                    "1": "member"
+                },
+                {
+                    "2": "silver"
+                },
+                {
+                    "3": "gold"
+                }
+            ],
+            "email_address": "naruguate@gmail.com"
+        }
+    ]
+}

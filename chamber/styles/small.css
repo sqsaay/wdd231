@@ -1,0 +1,133 @@
+:root {
+    --primary-color: #C1C2B2;
+    --secondary-color: #B0AA87;
+    --background-color: #C3CDDD;
+    --text-color: #000000;
+    --font: "Quicksand", sans-serif;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: var(--font);
+    text-decoration: none;
+}
+
+header {
+    padding: 1rem;
+    background-color: var(--background-color);
+    color: var(--text-color);
+    display: flex;
+    gap: 5px;
+}
+
+h2 {
+    padding: 1rem;
+    background-color: var(--primary-color);
+    color: var(--text-color);
+    border-radius: 1rem;
+}
+
+/*Directory container*/
+
+.button-container {
+    margin: 5px auto;
+    background-color: var(--secondary-color);
+    display: flex;
+    gap: 5px;
+    justify-content: center;
+    padding: 1rem;
+}
+
+.button-container button {
+    width: 50px;
+    background-color: var(--primary-color);
+    border-radius: 3px;
+    font-weight: bold;
+}
+
+#directory-container {
+    padding: 1rem;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 10px
+}
+
+.list {
+	display: flex;
+	flex-direction: column;
+    text-align: center;
+    border: solid 1px var(--secondary-color);  
+    margin: auto 10px;  
+    margin-bottom: 10px;
+
+    section{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        gap: 5px;
+        border-radius: 0;
+        border: none;
+        font-size: 15px;
+        
+        h2{
+            background-color: #00000000;
+            padding: 0;
+            margin: 0;
+            font-weight: normal;
+            font-size: 15px;
+            
+        }
+
+        img{
+            display: none;
+        }
+
+        &:nth-child(even) {
+			background-color: var(--primary-color);
+		}
+
+    }
+};
+
+        section:not([h2]) {
+            display: flex;
+            flex-direction: column;
+            gap: 5px;
+            justify-content: end;
+            text-align: center;
+
+        }
+
+        section {
+            border-bottom: solid 1px var(--primary-color);
+            border-left: solid 1px var(--primary-color);
+            border-right: solid 1px var(--primary-color);
+            border-radius: 1rem;
+
+        }
+
+        section img {
+            margin: auto;
+            box-shadow: 10px 10px 50px var(--primary-color);
+            padding: 5px;
+        }
+
+        section a {
+            text-decoration: underline;
+            color: var(--text-color);
+            margin-bottom: 10px;
+        }
+
+
+        footer {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            justify-items: center;
+            gap: 1rem;
+            padding: 1rem;
+            background-color: var(--background-color);
+            color: var(--text-color);
+        }

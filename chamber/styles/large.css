@@ -1,0 +1,30 @@
+@media (min-width: 320px){
+
+
+    header{
+        display: grid;
+        grid-template-columns: .5fr 1fr 2fr;
+        align-items: end;
+        gap: 1rem;
+    }
+    nav ul{
+        display: flex;
+        flex-direction: row;
+        list-style: none;
+        justify-content: space-evenly;
+    }
+
+   
+    header img{
+        display: grid;
+        justify-self: right;
+    }
+
+   .grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 10px;
+
+}
+
+}
