@@ -1,7 +1,7 @@
 :root {
     --primary-color: #C1C2B2;
     --secondary-color: #B0AA87;
-    --background-color: #C3CDDD;
+    --background-color: #d1cdba;
     --text-color: #000000;
     --font: "Quicksand", sans-serif;
 }
@@ -19,6 +19,9 @@ header {
     color: var(--text-color);
     display: flex;
     gap: 5px;
+}
+header a{
+    color: var(--text-color);
 }
 
 h2 {
@@ -90,7 +93,7 @@ h2 {
 		}
 
     }
-};
+}
 
         section:not([h2]) {
             display: flex;
