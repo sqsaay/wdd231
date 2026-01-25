@@ -1,4 +1,4 @@
-@media (min-width: 320px){
+@media (min-width: 321px){
 
 
     header{
@@ -12,12 +12,15 @@
         flex-direction: row;
         list-style: none;
         justify-content: space-evenly;
+        font-weight: bold;
     }
-
-   
+    
     header img{
         display: grid;
         justify-self: right;
+    }
+    #ham-button{
+        display: none;
     }
 
    .grid {
@@ -25,6 +28,25 @@
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
     gap: 10px;
 
+}
+
+.list {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    border: solid 1px var(--secondary-color);
+    margin: auto 10px;
+    margin-bottom: 10px;    
+}
+
+.list section{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    font-size: 15px;
+    align-items: center;
+    justify-items: center;
+    border: solid 1px var(--secondary-color);
+    padding: 1rem;
 }
 
 }
