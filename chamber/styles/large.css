@@ -1,4 +1,4 @@
-@media (min-width: 321px){
+@media (min-width: 420px){
 
 
     header{
@@ -18,6 +18,7 @@
     header img{
         display: grid;
         justify-self: right;
+    
     }
     #ham-button{
         display: none;

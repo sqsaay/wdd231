@@ -15,10 +15,22 @@
 
 /*Hamburguer Button*/
 
-#ham-button{
+.hamburguer{
     background-color: #00000000;
     border: none;
     font-size: 30px;
+}
+.hamburguer::before {
+    content: "\2630";
+}
+
+.hamburguer.show::before {
+    content: "\00D7";
+    font-size: 40px;
+}
+
+#nav-bar.show{
+    display: block;
 }
 
 header {

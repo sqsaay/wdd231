@@ -3,7 +3,7 @@
 const cards = document.querySelector('#directory-container');
 
 async function getData() {
-    const response = await fetch('../chamber/data/member.json');
+    const response = await fetch('../chamber/data/members.json');
     const data = await response.json();
     displayCompanies(data.companies);
 
@@ -29,8 +29,8 @@ const displayCompanies = (companies) => {
         url.setAttribute("href", `${company.company_website}`);
         emailAddress.innerHTML = `${company.email_address}`;
         emailAddress.setAttribute("href", `mailto:${company.email_address}`);
-        
-        company.company_address.forEach(add =>{
+
+        company.company_address.forEach(add => {
             address.textContent = `${add.street_and_number}, zona ${add.zone}, ${add.city}`;
         })
 
