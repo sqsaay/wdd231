@@ -1,6 +1,8 @@
 @media (min-width: 420px){
 
-
+    .navigation{
+        display: block;
+    }
     header{
         display: grid;
         grid-template-columns: .5fr 1fr 2fr;
@@ -20,6 +22,9 @@
         justify-self: right;
     
     }
+    nav li {
+    border: none;
+}
     #ham-button{
         display: none;
     }

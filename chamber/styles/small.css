@@ -15,29 +15,71 @@
 
 /*Hamburguer Button*/
 
-.hamburguer{
-    background-color: #00000000;
+#nav-button > .navigation{
+    content: none;
+}
+nav {
+    margin-top: 1rem;
+    background-color: var(--secondary-color);
+    border: solid 2px var(--secondary-color);
+    text-align: left;
+}
+
+nav ul {
+    margin: 0;
+    list-style-type: none;
+}
+
+nav a {
+    color: var(--text-color);
+    display: block;
+    padding: 5px;
+    text-decoration: none;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+nav li {
+    border: solid 1px var(--background-color);
+}
+
+.navigation {
+    margin: 1rem;
+    display: none;
+}
+
+.navigation.show {
+    display: block;
+    grid-column: 1/4;
+    text-align: center;
+}
+
+
+.hamburguer {
+    background: none;
     border: none;
+    font-size: 0;
+}
+
+.hamburguer::before {
+    content: "≡";
     font-size: 30px;
 }
-.hamburguer::before {
-    content: "\2630";
-}
+
 
 .hamburguer.show::before {
     content: "\00D7";
-    font-size: 40px;
-}
-
-#nav-bar.show{
-    display: block;
+    font-size: 30px;
 }
 
 header {
     padding: 1rem;
     background-color: var(--background-color);
     color: var(--text-color);
-    display: flex;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
     gap: 5px;
 }
 
@@ -45,9 +87,6 @@ header a {
     color: var(--text-color);
 }
 
-header ul{
-    display: none;
-}
 header p{
     font-weight: bold;
     font-size: 20px;
