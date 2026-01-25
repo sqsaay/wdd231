@@ -2,6 +2,9 @@
 
     .navigation{
         display: block;
+        background-color: transparent;
+        border: none;
+        margin: 0;
     }
     header{
         display: grid;
