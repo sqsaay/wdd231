@@ -10,6 +10,7 @@ async function getProphetData() {
     displayProphets(data.prophets);
 }
 
+
 getProphetData();
 
 const displayProphets = (prophets) =>{
