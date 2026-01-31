@@ -25,8 +25,9 @@
     <!--JS references-->
     <script src="scripts/get-date.js" defer></script>
     <script src="scripts/data-source.js" defer></script>
-    <script src="scripts/layout.js" defer></script>
     <script src="scripts/ham-button.js" defer></script>
+    <script src="scripts/current-weather.js" defer></script>
+    <script src="scripts/forecast-weather.js" defer></script>
     <!--Google fonts-->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -50,12 +51,35 @@
     </header>
 
     <main>
-        <h1>Directory</h1>
-        <div class="button-container">
-            <button id="grid-button">Grid</button>
-            <button id="list-button">List</button>
+        <h1>Home</h1>
+        <img id="hero-img" src="images/hero-image.webp" alt="Guatemalan Market">
+        <button type="button">Join to the Chamber</button>
+        <div id="home-container" class="grid">
+            <div id="events-section">
+                <section>
+                    <h2>Events</h2>
+                    <p></p>
+                </section>
+            </div>
+            <div id="weather-section">
+                <section>
+                    <h2>Current Weather</h2>
+                    <img id="weather-icon" src="" alt=""> <span id="current-temp"></span>
+                    <span id="desc-temp"></span>
+                    <span id="max-temp"></span>
+                    <span id="low-temp"></span>
+                    <span id="hum-temp"></span>
+                    <span id="sunrise"></span>
+                    <span id="sunset"></span>
+                </section>
+            </div>
+            <div id="company-section">
+                <section>
+                    <h2>Weather Forecast</h2>
+                    <span id="weather-forecast"></span>
+                </section>
+            </div>
         </div>
-        <div id="directory-container" class="grid"></div>
     </main>
 
     <footer>

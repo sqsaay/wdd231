@@ -58,4 +58,24 @@
     padding: 1rem;
 }
 
+/*Home Page*/
+main img{
+    width: 800px;
+    height: 100%;    
 }
+
+main button{
+    position: absolute;
+    right: 24%;
+    top: 60%;
+    width: 150px;
+    height: 75px;
+    font-size: large;
+}
+
+#home-container{
+    display: grid;
+    grid-template-columns: repeat(minmax(300px, 3));
+}
+}
+
