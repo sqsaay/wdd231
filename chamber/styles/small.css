@@ -289,7 +289,6 @@ section a {
 }
 
 #members-section section img {
-    margin: auto;
     height: 100px;
     box-shadow: 10px 10px 50px var(--primary-color);
     padding: 5px;
