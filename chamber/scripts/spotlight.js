@@ -16,7 +16,7 @@ function displayMembers(companies, membershipNumber) {
     });
 
     const cards = document.querySelector('#members-section');
-    cards.innerHTML = ""; 
+    cards.innerHTML = "";
 
     filteredCompanies.forEach(company => {
         const membershipLevel = company.membership[0][membershipNumber];
