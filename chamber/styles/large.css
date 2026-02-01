@@ -1,81 +1,110 @@
-@media (min-width: 420px){
+@media (min-width: 420px) {
 
-    .navigation{
+    .navigation {
         display: block;
         background-color: transparent;
         border: none;
         margin: 0;
     }
-    header{
+
+    header {
         display: grid;
         grid-template-columns: .5fr 1fr 2fr;
         align-items: end;
         gap: 1rem;
     }
-    nav ul{
+
+    nav ul {
         display: flex;
         flex-direction: row;
         list-style: none;
         justify-content: space-evenly;
         font-weight: bold;
     }
-    
-    header img{
+
+    header img {
         display: grid;
         justify-self: right;
-    
+
     }
+
     nav li {
-    border: none;
-}
-    #ham-button{
+        border: none;
+    }
+
+    #ham-button {
         display: none;
     }
 
-   .grid {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-    gap: 10px;
+    .grid {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+        gap: 10px;
+
+    }
+
+    .list {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        border: solid 1px var(--secondary-color);
+        margin: auto 10px;
+        margin-bottom: 10px;
+    }
+
+    .list section {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        font-size: 15px;
+        align-items: center;
+        justify-items: center;
+        border: solid 1px var(--secondary-color);
+        padding: 1rem;
+    }
+
+    /*Home Page*/
+    #hero-img {
+        width: 800px;
+        height: 100%;
+    }
+
+    #main-home button {
+        position: absolute;
+        right: 24%;
+        top: 60%;
+        width: 150px;
+        height: 75px;
+        font-size: large;
+    }
+
+    #home-container {
+        margin: 0 15px 10px;
+        display: grid;
+        grid-template-columns: 2fr 1fr 1fr;
+        width: 1000px;
+        justify-self: center;
+    }
+
+    #home-container section {
+        display: block;
+        height: 300px;
+    }
+
+  #weather-section section {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+
+        h2 {
+            grid-column: 1/3;
+        }
+        img{
+            grid-row: 2/9;
+            position: relative;
+            top: -60px;   
+        }
+        span{
+            text-align: left;
+        }
+    }
 
 }
-
-.list {
-    display: flex;
-    flex-direction: column;
-    text-align: center;
-    border: solid 1px var(--secondary-color);
-    margin: auto 10px;
-    margin-bottom: 10px;    
-}
-
-.list section{
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
-    font-size: 15px;
-    align-items: center;
-    justify-items: center;
-    border: solid 1px var(--secondary-color);
-    padding: 1rem;
-}
-
-/*Home Page*/
-main img{
-    width: 800px;
-    height: 100%;    
-}
-
-main button{
-    position: absolute;
-    right: 24%;
-    top: 60%;
-    width: 150px;
-    height: 75px;
-    font-size: large;
-}
-
-#home-container{
-    display: grid;
-    grid-template-columns: repeat(minmax(300px, 3));
-}
-}
-

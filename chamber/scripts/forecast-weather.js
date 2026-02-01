@@ -1,5 +1,26 @@
-
+const weatherForecast = document.querySelector('#weather-forecast'); 
 //Required variables
-const urlForecast = `https://api.openweathermap.org/data/2.5/forecast?lat=${latitude}&lon=${longitude}&appid=${apiKey}&units=metric`;
+const keyApi = "02ca07c3d7610b01fec163f87c995985";
+const lat = "14.54";
+const lon = "-90.53"
+const urlForecast = `https://api.openweathermap.org/data/2.5/forecast?lat=${lat}&lon=${lon}&appid=${keyApi}&units=metric`;
 
-apiFetch(urlForecast);
+async function apiFetch(urlVar) {
+    try {
+        const response = await fetch(urlVar);
+        if (response.ok) {
+            const data = await response.json();
+            console.table(data.list);
+            displayForecast(data);
+        } else {
+            throw Error(await response.text());
+        }
+    } catch (error) {
+        console.log(error);
+    }
+}
+
+function displayForecast(data){
+    const dailyForecast = data.list.filter
+}
+

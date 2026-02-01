@@ -9,44 +9,53 @@ const sunset = document.querySelector('#sunset');
 
 //Required variables 
 const apiKey = "02ca07c3d7610b01fec163f87c995985";
-const latitude = "14.64";
-const longitude = "-90.51"
+const latitude = "14.54";
+const longitude = "-90.53"
 const url = `https://api.openweathermap.org/data/2.5/weather?lat=${latitude}&lon=${longitude}&units=metric&appid=${apiKey}`;
 
 
 async function apiFetch(urlVar) {
-    try{
+    try {
         const response = await fetch(urlVar);
-        if (response.ok){
+        if (response.ok) {
             const data = await response.json();
             console.table(data);
             displayResults(data);
-        }else{
+        } else {
             throw Error(await response.text());
         }
-    }catch(error){
+    } catch (error) {
         console.log(error);
-    } 
+    }
 }
 
 apiFetch(url);
 
-function displayResults(data){
-    currentTemp.innerHTML = `${data.main.temp} ℃`;
+function displayResults(data) {
+    currentTemp.innerHTML = `<strong>${data.main.temp}</strong> ℃`;
     const iconURL = `https://openweathermap.org/img/w/${data.weather[0].icon}.png`;
-    descTemp.textContent = data.weather[0].description;
+    const desc = data.weather[0].description;
+    descTemp.textContent = toTitleCase(desc);
     weatherIcon.setAttribute("src", iconURL);
     weatherIcon.setAttribute("alt", descTemp);
     maxTemp.textContent = `High: ${data.main.temp_max}°`;
     lowTemp.textContent = `Low: ${data.main.temp_min}°`;
     humTemp.textContent = `Humidity: ${data.main.humidity}%`;
-    sunrise.textContent = `Sunrise:${getTime(data.sys.sunrise)}`;
-    sunset.textContent = `Sunset:${getTime(data.sys.sunset)}`;
-    
-    function getTime(time){
+    sunrise.textContent = `Sunrise: ${getTime(data.sys.sunrise)}`;
+    sunset.textContent = `Sunset: ${getTime(data.sys.sunset)}`;
+
+    function getTime(time) {
         const date = new Date(time * 1000);
-        const options = { hour: 'numeric', minute: 'numeric', hour12: true }; 
+        const options = { hour: 'numeric', minute: 'numeric', hour12: true };
         return date.toLocaleTimeString('en-US', options);
     }
+    function toTitleCase(str) {
+        return str
+            .toLowerCase()
+            .split(" ")
+            .map(word => word.charAt(0).toUpperCase() + word.slice(1))
+            .join(" ");
+    }
+
 }
 
