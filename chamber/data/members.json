@@ -16,13 +16,7 @@
             "image_file": "https://raw.githubusercontent.com/sqsaay/wdd231/refs/heads/main/chamber/images/coletas-gt.jpg",
             "membership": [
                 {
-                    "1": "member"
-                },
-                {
                     "2": "silver"
-                },
-                {
-                    "3": "gold"
                 }
             ],
             "email_address": "coletas@gmail.com"
@@ -42,12 +36,6 @@
             "company_website": "https://www.instagram.com/minki.gt/",
             "image_file": "https://raw.githubusercontent.com/sqsaay/wdd231/refs/heads/main/chamber/images/minki-gt.jpg",
             "membership": [
-                {
-                    "1": "member"
-                },
-                {
-                    "2": "silver"
-                },
                 {
                     "3": "gold"
                 }
@@ -70,13 +58,7 @@
             "image_file": "https://raw.githubusercontent.com/sqsaay/wdd231/refs/heads/main/chamber/images/picolinas-gt.jpg",
             "membership": [
                 {
-                    "1": "member"
-                },
-                {
                     "2": "silver"
-                },
-                {
-                    "3": "gold"
                 }
             ],
             "email_address": "piccolinasgt@gmail.com"
@@ -96,12 +78,6 @@
             "company_website": "https://www.instagram.com/madelaine.gt",
             "image_file": "https://raw.githubusercontent.com/sqsaay/wdd231/refs/heads/main/chamber/images/madelaine-gt.jpg",
             "membership": [
-                {
-                    "1": "member"
-                },
-                {
-                    "2": "silver"
-                },
                 {
                     "3": "gold"
                 }
@@ -124,13 +100,7 @@
             "image_file": "https://raw.githubusercontent.com/sqsaay/wdd231/refs/heads/main/chamber/images/puntocrochet-gt.jpg",
             "membership": [
                 {
-                    "1": "member"
-                },
-                {
                     "2": "silver"
-                },
-                {
-                    "3": "gold"
                 }
             ],
             "email_address": "puntocrochet.gt@gmail.com"
@@ -152,12 +122,6 @@
             "membership": [
                 {
                     "1": "member"
-                },
-                {
-                    "2": "silver"
-                },
-                {
-                    "3": "gold"
                 }
             ],
             "email_address": "merelagt@gmail.com"
@@ -179,12 +143,6 @@
             "membership": [
                 {
                     "1": "member"
-                },
-                {
-                    "2": "silver"
-                },
-                {
-                    "3": "gold"
                 }
             ],
             "email_address": "naruguate@gmail.com"

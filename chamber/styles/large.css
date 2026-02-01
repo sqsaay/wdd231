@@ -79,8 +79,6 @@
 
     #home-container {
         margin: 0 15px 10px;
-        display: grid;
-        grid-template-columns: 2fr 1fr 1fr;
         width: 1000px;
         justify-self: center;
     }
@@ -105,6 +103,18 @@
         span{
             text-align: left;
         }
+    }
+
+    #members-section {
+    width: 800px;
+    display: flex;
+    justify-self: center;
+    gap: 10px
+}
+
+    #members-section section{
+        width: 400px;
+        height: 300px;
     }
 
 }

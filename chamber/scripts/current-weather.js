@@ -19,7 +19,6 @@ async function apiFetch(urlVar) {
         const response = await fetch(urlVar);
         if (response.ok) {
             const data = await response.json();
-            console.table(data);
             displayResults(data);
         } else {
             throw Error(await response.text());

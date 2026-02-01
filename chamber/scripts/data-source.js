@@ -1,5 +1,4 @@
 //Fetch and await/sync function
-
 const cards = document.querySelector('#directory-container');
 
 async function getData() {

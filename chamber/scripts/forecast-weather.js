@@ -10,8 +10,7 @@ async function apiFetch(urlVar) {
     try {
         const response = await fetch(urlVar);
         if (response.ok) {
-            const data = await response.json();
-            console.table(data.list); 
+            const data = await response.json(); 
             displayForecast(data);    
         } else {
             throw Error(await response.text());
@@ -43,10 +42,6 @@ function displayForecast(data) {
     days.forEach(day => {
         const temps = forecastByDay[day];
         const avgTemp = (temps.reduce((a, b) => a + b, 0) / temps.length).toFixed(1);
-
-        
-        console.log(`${day}: ${avgTemp} °C`);
-
       
         const dayElement = document.createElement("p"); 
         dayElement.innerHTML = `${day}: <strong>${avgTemp}°C</strong> `; 
