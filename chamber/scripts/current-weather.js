@@ -37,6 +37,7 @@ function displayResults(data) {
     descTemp.textContent = toTitleCase(desc);
     weatherIcon.setAttribute("src", iconURL);
     weatherIcon.setAttribute("alt", descTemp);
+    weatherIcon.setAttribute("loading", "lazy");
     maxTemp.textContent = `High: ${data.main.temp_max}°`;
     lowTemp.textContent = `Low: ${data.main.temp_min}°`;
     humTemp.textContent = `Humidity: ${data.main.humidity}%`;
