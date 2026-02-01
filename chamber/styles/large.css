@@ -1,4 +1,4 @@
-@media (min-width: 420px) {
+@media (min-width: 1059px) {
 
     .navigation {
         display: block;
@@ -106,7 +106,6 @@
     }
 
     #members-section {
-    width: 800px;
     display: flex;
     justify-self: center;
     gap: 10px
@@ -114,7 +113,12 @@
 
     #members-section section{
         width: 400px;
-        height: 300px;
+    }
+
+    #members-section p, a{
+        padding-top: 1rem;
+        display: flex;
+        justify-content: center;
     }
 
 }

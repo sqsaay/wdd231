@@ -240,7 +240,7 @@ section a {
         height: 224px;
     }
 #home-container{
-    margin: 0 15px 10px;
+    margin-bottom: 3rem
 }
 
 #forecast-section section{
@@ -268,18 +268,13 @@ section a {
     text-align: center;
 }
 
-
 #members-section {
     display: grid;
     grid-template-columns: 1fr;
     gap: 10px
 }
 
-#members-section section {
-    display: grid;
-    
 
-}
 
 #members-section section {
     border-bottom: solid 1px var(--primary-color);
@@ -287,7 +282,6 @@ section a {
     border-right: solid 1px var(--primary-color);
     border-radius: 1rem;
     margin-bottom: 10px;
-    
 }
 
 #members-section section img {
@@ -296,6 +290,7 @@ section a {
     box-shadow: 10px 10px 50px var(--primary-color);
     padding: 5px;
     float: left;
+    margin: 15px;
 
 }
 
