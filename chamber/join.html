@@ -53,13 +53,13 @@
             <section class="form-info">
                 <h2>Let's Get You Into the Chamber</h2>
                 <p>Fill each of the following fields, so you can be part of our Community. </p>
-                <form action="/thank-you.html" target="_self" autocomplete="off">
+                <form action="thankyou.html" target="_self" method="get" autocomplete="off">
                     <label for="fname">First Name *</label>
                     <input type="text" id="fname" name="fname" autocomplete="given-name" required
-                        placeholder="Type first name here..."><br>
+                        placeholder="Type first name here..." title="fname"><br>
                     <label for="lname">Last Name *</label>
                     <input type="text" id="lname" name="lname" autocomplete="family-name" required
-                        placeholder="Type last name here..."><br>
+                        placeholder="Type last name here..." title="lname"><br>
                     <label for="orgtitle">Organizational Title *</label>
                     <input type="text" id="orgtitle" name="orgtitle" autocomplete="organization-title" required
                         placeholder="Type organization title here..." pattern="[A-Za-z\- ]{7,}"><br>
@@ -67,11 +67,11 @@
                     <input type="email" id="eaddress" name="eaddress" autocomplete="email" required
                         placeholder="chamber.gt@gmail.com"><br>
                     <label for="pnumber">Phone Number *</label>
-                    <input type="telephone" id="pnumber" name="pnumber" autocomplete="tel" required
+                    <input type="tel" id="pnumber" name="pnumber" autocomplete="tel" required
                         placeholder="Type phone number here..."><br>
                     <label for="bname">Business Name *</label>
                     <input type="text" id="bname" name="bname" autocomplete="organization"
-                        placeholder="Type business name here..."><br>
+                        placeholder="Type business name here..." required><br>
                     <label for="mlevel">Membership Level *</label>
                     <select type="mlevel" id="mlevel" name="mlevel">
                         <option value="np">NP Membership</option>
@@ -80,7 +80,7 @@
                         <option value="gold">Gold Membership</option>
                     </select><br>
                     <label for="bdesc">Business Description * </label>
-                    <textarea name="bdesc" placeholder="A brief description of your business..."></textarea>
+                    <textarea id="bdesc" name="bdesc" placeholder="A brief description of your business..."></textarea>
                     <input type="hidden" name="timestamp" id="timestamp"><br>
                     <button type="submit">Submit Information</button>
                 </form>
