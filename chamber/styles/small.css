@@ -327,7 +327,6 @@ section a {
     display: grid;
     justify-content: center;
     padding: 15px;
-    background-color: var(--primary-color);
     border-bottom-left-radius: 1rem;
     border-bottom-right-radius: 1rem;
     border: solid 1px var(--text-color);
@@ -340,7 +339,6 @@ section a {
     border: none;
     border-bottom: solid 2px var(--secondary-color);
     width: 300px;
-    background-color: var(--primary-color);
 }
 
 .form-info select{
@@ -360,12 +358,12 @@ section a {
 }
 
 /*--------------Join Membership Section----------------*/
+.member-info{
+    margin-top: 10px;
+}
 .member-info h2 {
     text-align: center;
-    background-color: var(--primary-color);
     padding: 25px;
-    border-top-left-radius: 10px;
-    border-top-right-radius: 10px;
 }
 
 #membership-cards{
@@ -379,6 +377,7 @@ section a {
     padding: 1rem;
     border: solid 2px var(--secondary-color);
     border-bottom-left-radius: 3rem;
+    background-color: var(--background-color);
 }
 
 #membership-cards button{
