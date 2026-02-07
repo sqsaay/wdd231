@@ -187,9 +187,10 @@ section a {
 
 /*Home Page*/
 
-#main-home{
+#main-home {
     margin: 10px 10px;
 }
+
 #hero-img {
     display: flex;
     justify-self: center;
@@ -303,6 +304,104 @@ section a {
     margin-bottom: 10px;
 }
 
+/*Join Page*/
+#join-container {
+    padding: 10px;
+}
+
+.form-info h2{
+    text-align: center;
+    background-color: var(--secondary-color);
+    border-top-left-radius: 1rem;
+    border-top-right-radius: 1rem;
+    padding: 10px;
+}
+.form-info p {
+    text-align: center;
+    background-color: var(--secondary-color);
+    padding: 5px;
+    
+}
+
+.form-info form {
+    display: grid;
+    justify-content: center;
+    padding: 15px;
+    background-color: var(--primary-color);
+    border-bottom-left-radius: 1rem;
+    border-bottom-right-radius: 1rem;
+    border: solid 1px var(--text-color);
+}
+
+.form-info label{
+    font-weight: 700;
+}
+.form-info input, textarea{
+    border: none;
+    border-bottom: solid 2px var(--secondary-color);
+    width: 300px;
+    background-color: var(--primary-color);
+}
+
+.form-info select{
+    background-color: var(--background-color);
+    border-radius: 10px;
+    border: solid 2px var(--secondary-color);
+    font-weight: 500;
+}
+
+.form-info button{
+    background-color: var(--secondary-color);
+    width: 200px;
+    height: 40px;
+    font-weight: 700;
+    border-radius: 10px;
+    justify-self: center;
+}
+
+/*--------------Join Membership Section----------------*/
+.member-info h2 {
+    text-align: center;
+    background-color: var(--primary-color);
+    padding: 25px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+#membership-cards{
+    padding: 1rem;
+    display: grid;
+    row-gap: 1rem;
+ 
+}
+
+#membership-cards section{
+    padding: 1rem;
+    border: solid 2px var(--secondary-color);
+    border-bottom-left-radius: 3rem;
+}
+
+#membership-cards button{
+    display: flex;
+    margin-top: 10px;
+    padding: 10px;
+    justify-self: center;
+    border-radius: 10px;
+    font-weight: 600;
+}
+
+#btn-np{
+    background-color: #fffacd;
+}
+#btn-bronze{
+    background-color: #9f6a3f96;
+}
+#btn-silver{
+    background-color: #aaaaaa;
+}
+#btn-gold{
+    background-color: #aa8e00c7;
+}
 /*Footer*/
 
 footer {

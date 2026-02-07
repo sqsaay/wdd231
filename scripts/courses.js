@@ -1,4 +1,5 @@
 const navButton = document.querySelector('#nav-button');
+
 navButton.addEventListener('click', () => {
     navButton.classList.toggle('show');
     navBar.classList.toggle('show');
@@ -108,16 +109,14 @@ if (sectionClass) {
 const allCoursesBtn = document.querySelector('.btn-1');
 const wddCoursesBtn = document.querySelector('.btn-2');
 const cseCoursesBtn = document.querySelector('.btn-3');
+const courseDetails = document.querySelector('#course-details');
 
 createCoursesCard(courses, "all");
 createCreditParagraph(courses);
 
 allCoursesBtn.addEventListener("click", () => {
-    createCoursesCard(courses, "all");
-    createCreditParagraph(courses);
-    wddCoursesBtn.removeAttribute('id');
-    cseCoursesBtn.removeAttribute('id');
-    allCoursesBtn.setAttribute('id','active_btn');
+    displayCourseDetails(courses);
+    
 });
 
 wddCoursesBtn.addEventListener("click", () => {
@@ -127,6 +126,7 @@ wddCoursesBtn.addEventListener("click", () => {
     allCoursesBtn.removeAttribute('id');
     cseCoursesBtn.removeAttribute('id');
     wddCoursesBtn.setAttribute('id','active_btn');
+    displayCourseDetails(courses);
 });
 
 cseCoursesBtn.addEventListener("click", () => {
@@ -135,7 +135,9 @@ cseCoursesBtn.addEventListener("click", () => {
     createCreditParagraph(cseCards);
     allCoursesBtn.removeAttribute('id');
     wddCoursesBtn.removeAttribute('id');
-    cseCoursesBtn.setAttribute('id','active_btn');
+    cseCoursesBtn.setAttribute('id','active_btn'); 
+    courseDetails.showModal(displayCourseDetails());
+
 });
 
 //Create Courses Cards
@@ -183,4 +185,23 @@ function createCreditParagraph(filteredCards) {
     const content = document.createElement("p");
     content.textContent = `The total number of credits listed is ${totalCredits}`;
     container.appendChild(content);
+}
+
+//Modal #course-details
+
+function displayCourseDetails(course) {
+  courseDetails.innerHTML = '';
+  courseDetails.innerHTML = `
+    <button id="closeModal">❌</button>
+    <h2>${course.subject} ${course.number}</h2>
+    <h3>${course.title}</h3>
+    <p><strong>Credits</strong>: ${course.credits}</p>
+    <p><strong>Certificate</strong>: ${course.certificate}</p>
+    <p>${course.description}</p>
+    <p><strong>Technologies</strong>: ${course.technology.join(', ')}</p>
+  `;
+  
+  closeModal.addEventListener("click", () => {
+    courseDetails.close();
+  });
 }

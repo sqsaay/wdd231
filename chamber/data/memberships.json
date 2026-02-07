@@ -1,0 +1,43 @@
+{
+    "memberships": [
+        {
+            "membership_type": "NP Membership (Non-Profit)",
+            "eligibility": "Non-profit organizations (registered charities, NGOs, associations)",
+            "fee": "No cost",
+            "perks": [ "Directory listing", 
+            "Access to publications",
+            "Training opportunities",
+            "Social media promotion"]
+        },
+        {
+            "membership_type": "Bronze Membership",
+            "eligibility": "For-profit companies seeking entry-level Chamber involvement",
+            "fee": "Q100.00",
+            "perks": [ "Directory listing", 
+            "Access to publications",
+            "Invitations to luncheons",
+            "Basic advertising opportunities"]
+        },
+        {
+            "membership_type": "Silver Membership",
+            "eligibility": "For-profit companies ready for mid-tier visibility and networking",
+            "fee": "Q200.00",
+            "perks": [ "All Bronze perks", 
+            "Enhanced directory listing (priority placement)",
+            "Expanded training opportunities",
+            "Social media promotion campaigns",
+            "Sponsorship opportunities"]
+        },
+        {
+            "membership_type": "Gold Membership",
+            "eligibility": "For-profit companies seeking premium exposure and leadership presence",
+            "fee": "Q500.00",
+            "perks": [ "All Silver perks", 
+            "Featured directory listing",
+            "Premium advertising options",
+            "Exclusive luncheons and networking events",
+            "Priority sponsorships",
+            "Greater visibility across Chamber publications and media"]
+        }
+    ]
+}
