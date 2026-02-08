@@ -63,16 +63,7 @@ function createModals(modals) {
     });
 }
 
-    const dataMembership = getMembership();
-    create(dataMembership);
-    console.log(dataMembership);
-
-    function create (members){
-        members.forEach( member =>{
-            console.log(member[0])
-        });
-
-    }
+  
 
 
 
