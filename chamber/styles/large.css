@@ -131,6 +131,10 @@
     gap: 1rem;
 }
 
+.svg-social-media{
+    display: flex;
+    gap: 1rem;
+}
 
 }
 
