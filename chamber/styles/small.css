@@ -378,6 +378,7 @@ section a {
     border: solid 2px var(--secondary-color);
     border-bottom-left-radius: 3rem;
     background-color: var(--background-color);
+    animation: fadeIn 3s ease-in-out;
 }
 
 #membership-cards button{
@@ -433,4 +434,12 @@ dialog {
   background-color: rgb(0 0 0 / 50%);
 }
 
-@keyframes 
+@keyframes fadeIn{
+    0%{
+        opacity: 0%;
+    }
+    100%{
+        opacity: 1;
+    }
+
+}
