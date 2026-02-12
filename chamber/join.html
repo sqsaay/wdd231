@@ -25,11 +25,11 @@
     <!--JS references-->
     <script src="scripts/get-date.js" defer></script>
     <script src="scripts/ham-button.js" defer></script>
-    <script src="scripts/join.js" defer></script>
+    <script src="scripts/join.js" type="module"></script>
     <!--Google fonts-->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300...700&display=swap" rel="stylesheet">
 
 </head>
 
@@ -56,32 +56,34 @@
                 <form action="thankyou.html" target="_self" method="get" autocomplete="off">
                     <label for="fname">First Name *</label>
                     <input type="text" id="fname" name="fname" autocomplete="given-name" required
-                        placeholder="Type first name here..." title="First Name"><br>
+                        placeholder="Type first name..." title="First Name"><br>
                     <label for="lname">Last Name *</label>
                     <input type="text" id="lname" name="lname" autocomplete="family-name" required
-                        placeholder="Type last name here..." title="Last Name"><br>
+                        placeholder="Type last name..." title="Last Name"><br>
                     <label for="orgtitle">Organizational Title *</label>
                     <input type="text" id="orgtitle" name="orgtitle" autocomplete="organization-title" required
-                        placeholder="Type organization title here..." pattern="[A-Za-z\- ]{7,}" title="7 characters are required..."><br>
+                        placeholder="Type organization title..." pattern="[A-Za-z\- ]{7,}"
+                        title="7 characters are required..."><br>
                     <label for="eaddress">Email Address *</label>
                     <input type="email" id="eaddress" name="eaddress" autocomplete="email" required
                         placeholder="chamber.gt@gmail.com" title="Email Address"><br>
                     <label for="pnumber">Phone Number *</label>
                     <input type="tel" id="pnumber" name="pnumber" autocomplete="tel" required
-                        placeholder="Type phone number here..." title="Phone Number"><br>
+                        placeholder="Type phone number..." title="Phone Number"><br>
                     <label for="bname">Business Name *</label>
                     <input type="text" id="bname" name="bname" autocomplete="organization"
-                        placeholder="Type business name here..." required title="Business Name"><br>
+                        placeholder="Type business name..." required title="Business Name"><br>
                     <label for="mlevel">Membership Level *</label>
                     <select id="mlevel" name="mlevel">
-                        <option value="" disabled selected hidden>Choose a membership level...</option>
+                        <option value="" disabled selected hidden>Choose a membership level....</option>
                         <option value="np">NP Membership</option>
                         <option value="bronze">Bronze Membership</option>
                         <option value="silver">Silver Membership</option>
                         <option value="gold">Gold Membership</option>
                     </select><br>
                     <label for="bdesc">Business Description * </label>
-                    <textarea id="bdesc" name="bdesc" placeholder="A brief description of your business..." title="Business Description"></textarea>
+                    <textarea id="bdesc" name="bdesc" placeholder="A brief description of your business...."
+                        title="Business Description"></textarea>
                     <input type="hidden" name="timestamp" id="timestamp"><br>
                     <button type="submit">Submit Information</button>
                 </form>
@@ -91,6 +93,11 @@
                 <span id="membership-cards"></span>
             </section>
         </div>
+        <dialog class="modal" hidden>
+            <h2><span id="modal-title"></span></h2>
+            <p><span id="modal-content"></span></p>
+            <button class="close-button">✖️</button>
+        </dialog>
     </main>
     <footer>
         <div class="gt-chamber-info">

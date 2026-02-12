@@ -1,4 +1,4 @@
-@media (min-width: 1059px) {
+@media (min-width: 800px) {
 
     .navigation {
         display: block;
@@ -125,18 +125,20 @@
     }
 
     /*Join Us Page*/
+
 #join-container{
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
     gap: 1rem;
 }
 
+
 .svg-social-media{
     display: flex;
     gap: 1rem;
 }
 
-}
 
+}
 
 

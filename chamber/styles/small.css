@@ -335,13 +335,17 @@ section a {
 
 .form-info label {
     font-weight: 700;
+    
 }
 
 .form-info input,
 textarea {
     border: none;
     border-bottom: solid 2px var(--secondary-color);
-    width: 300px;
+    width: 200px;
+    display: flex;
+    gap: 1rem;
+    
 }
 
 .form-info select {
@@ -349,6 +353,8 @@ textarea {
     border-radius: 10px;
     border: solid 2px var(--secondary-color);
     font-weight: 500;
+    display: flex;
+    gap: 1rem;
 }
 
 .form-info button {
@@ -381,10 +387,22 @@ textarea {
     padding: 1rem;
     border: solid 2px var(--secondary-color);
     border-bottom-left-radius: 3rem;
-    background-color: var(--background-color);
-    opacity: 0;
-    animation: fadeIn 1s forwards;
+    background-color: var(--background-color);  
 }
+#sec-np{
+    animation: fadeIn 1s ease-in;
+}
+
+#sec-bronze{
+    animation: fadeIn 2s ease-in;
+}
+#sec-silver{
+    animation: fadeIn 3s ease-in;
+}
+#sec-gold{
+    animation: fadeIn 4s ease-in;
+}
+
 
 #membership-cards button {
     display: flex;
@@ -395,9 +413,10 @@ textarea {
     font-weight: 600;
 }
 
-#membership-cards button:hover{
+#membership-cards button:hover {
     background-color: var(--secondary-color);
 }
+
 #btn-np {
     background-color: #fffacd;
 }

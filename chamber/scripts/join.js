@@ -1,19 +1,16 @@
 const cards = document.querySelector('#membership-cards');
-const buttonData = [
-    { label: 'np', class: 'btn-np' },
-    { label: 'bronze', class: 'btn-bronze' },
-    { label: 'silver', class: 'btn-silver' },
-    { label: 'gold', class: 'btn-gold' }
-];
+const btnNp = document.querySelector('#btn-np');
+const btnBronze = document.querySelector("#btn-bronze");
+const btnSilver = document.querySelector("#btn-silver");
+const btnGold = document.querySelector("#btn-gold");
+const modal = document.querySelector(".modal");
 
-async function getMembership() {
+async function getMemberships() {
     const response = await fetch('../chamber/data/memberships.json');
     const data = await response.json();
-    displayMemberships(data.memberships);
     return data.memberships;
 }
 
-getMembership();
 const displayMemberships = (memberships) => {
     memberships.forEach(member => {
         const card = document.createElement("section");
@@ -23,49 +20,60 @@ const displayMemberships = (memberships) => {
         mName.textContent = member.membership_type;
         mButton.textContent = "Learn More";
         const firstWord = member.membership_type.split(" ")[0].toLowerCase();
+        card.id = `sec-${firstWord}`;
         mButton.id = `btn-${firstWord}`;
 
-        card.appendChild(mName);
-        card.appendChild(mButton);
-
+        card.append(mName, mButton);
         cards.appendChild(card);
 
+        //Event listener for each button
+        if (mButton.id === "btn-np") {
+            mButton.addEventListener("click", () => {
+                modal.showModal();
+            });
+        } else if (mButton.id === "btn-bronze") {
+            mButton.addEventListener("click", () => {
+                getMembership()[1];
+                console.log(`Membership Bronze: ${member.membership_type}`);
+            });
+        } else if (mButton.id === "btn-silver") {
+            mButton.addEventListener("click", () => {
+                getMembership()[1];
+                console.log(`Membership silver: ${member.membership_type}`);
+            });
+        } else if (mButton.id === "btn-gold") {
+            mButton.addEventListener("click", () => {
+                getMembership()[2];
+                console.log(`Membership gold: ${member.membership_type}`);
+            });
+        }
     });
 };
 
+// Load and render membership options
+const memberships = await getMemberships();
+displayMemberships(memberships);
+console.log(memberships[0].eligibility);
+
+// Modals
 
 
-/*Modals*/
-const modalNp = document.createElement("dialog");
-modalNp.id = "modalNp";
-function createModals(modals) {
-    
-    modals.forEach(data => {
-    const title = document.createElement("h2");
-    const eligibility = document.createElement("p");
-    const fee = document.createElement("p");
-    const perks = document.createElement("ul");
-    const closeBtn = document.createElement("button");
+function modalContent(memberships, index){
+    const modalTitle = document.querySelector("modal-title");
+    const modalContent = document.querySelector("modal-content");
+    const modalCloseBtn = document.querySelector("close-button");
+    memberships.forEach(member => {
+        modalTitle.textContent = member[index].membership_type;
+        modalContent.textContent = `<strong>Eligibility</strong>: ${member[index].eligibility}<br>
+        <strong>Fee</strong>: ${member[index].fee}<br>
+        <strong>Perks</strong>: ${member[index].eligibility}<br>
+        `;
 
-        title.textContent = `${membership_type}`;
-        eligibility.textContent = `Fee: ${eligibility}`;
-        fee.textContent = `Fee: ${fee}`;
-        closeBtn.id = "closeModal";
-        closeBtn.textContent = "close";
+        modal.showModal();
 
-        closeBtn.addEventListener("click", ()=>{
-            modalNp.close();
+        modalCloseBtn.addEventListener("click", ( )=>{
+            modal.closeModal();
         });
-        modalNp.appendChild(title);
-        modalNp.appendChild(eligibility);
-        modalNp.appendChild(fee);
-        modalNp.appendChild(closeBtn);
-    });
+        });
+   
 }
-
-  
-
-
-
-
-

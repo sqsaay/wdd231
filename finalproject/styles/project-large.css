@@ -1,0 +1,54 @@
+@media (min-width: 600px) {
+
+
+    #menu {
+        display: none;
+    }
+
+    header img,
+    h1 {
+        justify-self: center;
+    }
+
+    header h1 {
+        width: 300px;
+        font-size: normal;
+    }
+
+    /*Nav bar for larger screens*/
+    .nav-burguer-view {
+        display: flex;
+        justify-content: space-around;
+        background-color: var(--main-color);
+        align-items: center;
+        flex-direction: row;
+    }
+
+    .nav-burguer-view a {
+        display: inline;
+        padding: 1rem;
+        color: var(--tertiary-accent-color);
+    }
+
+    .nav-burguer-view a.active {
+        background-color: var(--secondary-color);
+        color: var(--secondary-accent-color);
+        font-weight: bold;
+        border-radius: 6px;
+    }
+
+    /*Layout for larger screens*/
+    .welcome-container-images {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        background-color: var(--secondary-color);
+        gap: 20px;
+    }
+
+    .container-artists {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 20px;
+    }
+
+}
