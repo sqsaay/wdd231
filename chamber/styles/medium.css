@@ -1,0 +1,27 @@
+@media (min-width: 640px){
+ 
+#discover-container section {
+    grid-template-areas:
+        "name"
+        "photo"
+        "description"
+        "address"
+        "button";
+        
+}
+
+ #discover-container section img:hover {
+        animation: imgAnimation 1.5s ease-in-out;
+    }
+ @keyframes imgAnimation{
+        from{
+            opacity: 0;
+            rotate: 0.5turn;
+        }
+        to{
+            opacity: 100;
+            transform: 360;
+        }
+    }
+
+}

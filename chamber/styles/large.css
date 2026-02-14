@@ -1,4 +1,4 @@
-@media (min-width: 800px) {
+@media (min-width: 1025px) {
 
     .navigation {
         display: block;
@@ -126,19 +126,61 @@
 
     /*Join Us Page*/
 
-#join-container{
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-    gap: 1rem;
+    #join-container {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+        gap: 1rem;
+    }
+
+
+    .svg-social-media {
+        display: flex;
+        gap: 1rem;
+    }
+
+    /*Discover page*/
+    #discover-container {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(500px, 1fr));
+    }
+
+    #discover-container section {
+        grid-template-areas:
+            "photo name"
+            "photo address"
+            "photo description"
+            "photo button";
+    }
+
+    #discover-container section h2 {
+        border-top-left-radius: 0;
+    }
+
+    #discover-container section img {
+        border-top-left-radius: 8px;
+        width: 100%;
+        height: auto;
+    }
+
+     #discover-container section img:hover {
+        border-top-left-radius: 8px;
+        width: 100%;
+        height: auto;
+        animation: imgAnimation 1.5s ease-in-out;
+    }
+
+    #discover-container section figure {
+        width: 300px;
+    }
+
+    #discover-container figcaption {
+        grid-area: imgDescription;
+        font-size: smaller;
+        display: block;
+        text-align: center;
+        margin-bottom: 8px;
+        width: 300px;
+    }
+
+   
 }
-
-
-.svg-social-media{
-    display: flex;
-    gap: 1rem;
-}
-
-
-}
-
-

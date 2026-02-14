@@ -13,8 +13,7 @@
     text-decoration: none;
 }
 
-/*Hamburguer Button*/
-
+/* #region Hamburguer Button*/
 #nav-button>.navigation {
     content: none;
 }
@@ -97,7 +96,9 @@ h1 {
     margin: 16px;
 }
 
-/*Directory container*/
+/* #endregion Hamburguer Button*/
+
+/*#region Directory container*/
 
 .button-container {
     margin: 5px auto;
@@ -119,7 +120,9 @@ h1 {
     padding: 1rem;
 }
 
-/*List layout*/
+/*#endregion Directory container*/
+
+/*#region List layout*/
 
 .list section {
     padding: 1rem;
@@ -141,8 +144,9 @@ h1 {
 .list section:nth-child(even) {
     background-color: var(--primary-color);
 }
+/*#endregion List layout*/
 
-/*Grid layout*/
+/*#region Grid layout*/
 .grid h2 {
     padding: 1rem;
     background-color: var(--primary-color);
@@ -184,9 +188,9 @@ section a {
     color: var(--text-color);
     margin-bottom: 10px;
 }
+/*#endregion Grid layout*/
 
-/*Home Page*/
-
+/*#region Home Page*/
 #main-home {
     margin: 10px 10px;
 }
@@ -304,7 +308,9 @@ section a {
     margin-bottom: 10px;
 }
 
-/*Join Page*/
+/*#endregion Home Page*/
+
+/*#region Join Page*/
 #join-container {
     padding: 10px;
 }
@@ -335,7 +341,7 @@ section a {
 
 .form-info label {
     font-weight: 700;
-    
+
 }
 
 .form-info input,
@@ -345,7 +351,7 @@ textarea {
     width: 200px;
     display: flex;
     gap: 1rem;
-    
+
 }
 
 .form-info select {
@@ -387,19 +393,22 @@ textarea {
     padding: 1rem;
     border: solid 2px var(--secondary-color);
     border-bottom-left-radius: 3rem;
-    background-color: var(--background-color);  
+    background-color: var(--background-color);
 }
-#sec-np{
+
+#sec-np {
     animation: fadeIn 1s ease-in;
 }
 
-#sec-bronze{
+#sec-bronze {
     animation: fadeIn 2s ease-in;
 }
-#sec-silver{
+
+#sec-silver {
     animation: fadeIn 3s ease-in;
 }
-#sec-gold{
+
+#sec-gold {
     animation: fadeIn 4s ease-in;
 }
 
@@ -433,7 +442,9 @@ textarea {
     background-color: #aa8e00c7;
 }
 
-/*Footer*/
+/*#endregion Join Page*/
+
+/*#region Footer*/
 
 footer {
     display: grid;
@@ -459,7 +470,7 @@ dialog {
     padding: 20px;
     display: flex;
     flex-direction: column;
-    justify-self: center;
+    justify-self: center;   
 }
 
 ::backdrop {
@@ -478,3 +489,105 @@ dialog {
     }
 
 }
+/*#endregion Footer*/
+
+/* #region Discover Page*/
+
+#last-visit{
+    background-color: var(--primary-color);
+    max-width: 300px;
+    min-width: 100px;
+    max-height: 50px;
+    position: absolute;
+    top: 10%;
+}
+#last-visit button{
+    background-color: var(--primary-color);
+    border: none;
+    display: flex;
+    justify-content: right;
+}
+
+#last-visit span{
+    font-weight: 700;
+    text-align: center;
+}
+#discover-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    margin: 1rem 8px;
+    gap: 2rem;
+}
+
+#discover-container section {
+    display: grid;
+    border: solid 2px var(--background-color);
+    border-radius: 10px;
+    grid-template-areas:
+        "name"
+        "photo"
+        "description"
+        "address"
+        "button";
+}
+
+#discover-container section h2 {
+    background-color: var(--primary-color);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-top-right-radius: 8px;
+    border-top-left-radius: 8px;
+    padding: 10px;
+    grid-area: name;
+    
+}
+
+#discover-container section address{
+    grid-area: address;
+    margin: 0 8px;
+    margin-bottom: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#discover-container section figure {
+    grid-area: photo;
+
+}
+
+#discover-container img {
+    border-top-left-radius: 0;
+    display: flex;
+    justify-self: center;
+}
+
+
+
+#discover-container section p {
+    margin: 5px 8px;
+    grid-area: description;
+    text-align: center;
+}
+#discover-container figcaption {
+    display: none;
+}
+#discover-container section button {
+    grid-area: button;
+    justify-self: center;
+    background-color: var(--secondary-color);
+    max-width: 300px;
+    min-width: 100px;
+    height: 50px;
+    border-radius: 15px;
+    font-weight: 800;
+    margin-bottom: 8px;
+}
+
+#discover-container button:hover{
+    background-color: var(--primary-color);
+    margin-bottom: 10px;
+}
+
+/*#endregion Discover Page*/

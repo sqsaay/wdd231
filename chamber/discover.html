@@ -5,30 +5,30 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!--Meta content-->
-    <title>Home | Guatemala Chamber of Commerce</title>
+    <title>Discover | Guatemala Chamber of Commerce</title>
     <meta name="description"
         content="Provides a list of local business and other organizations that belong the chamber of commerce">
     <meta name="author" content="Samantha Salazar">
     <!--Favicon-->
     <link rel="icon" href="images/favicon.ico">
     <!--Facebook social media content-->
-    <meta property="og:title" content="Home | Guatemala Chamber of Commerce">
+    <meta property="og:title" content="Discover | Guatemala Chamber of Commerce">
     <meta property="og:description"
         content="Provides a list of local business and other organizations that belong the chamber of commerce">
-    <meta property="og:url" content="https://sqsaay.github.io/wdd231/chamber">
+    <meta property="og:url" content="https://sqsaay.github.io/wdd231/join">
     <meta property="og:image" content="https://sqsaay.github.io/wdd231/chamber/images/chamber-of-commerce-logo.png">
     <meta property="og:alt" content="Guatemala Chamber of Commerce Logo">
     <!--CSS references-->
     <link rel="stylesheet" href="styles/normalize.css">
     <link rel="stylesheet" href="styles/small.css">
+    <link rel="stylesheet" href="styles/medium.css">
     <link rel="stylesheet" href="styles/large.css">
     <!--JS references-->
     <script src="scripts/get-date.js" defer></script>
-
     <script src="scripts/ham-button.js" defer></script>
-    <script src="scripts/forecast-weather.js" defer></script>
-    <script src="scripts/current-weather.js" defer></script>
-    <script src="scripts/spotlight.js" defer></script>
+    <script src="scripts/scripts.js" type="module"></script>
+
+
     <!--Google fonts-->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -50,43 +50,17 @@
             </ul>
         </nav>
     </header>
-
-    <main id="main-home">
-        <h1>Home</h1>
-        <img id="hero-img" src="images/hero-image.webp" alt="Guatemalan Market">
-        <a href="join.html"><button type="button">Join to the Chamber</button></a>
-        <div id="home-container" class="grid">
-            <div id="events-section">
-                <section>
-                    <h2>Events</h2>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem asperiores fuga, earum numquam eaque incidunt sit rerum itaque reiciendis eum facere magnam, nostrum consequuntur aspernatur error illo neque, odio amet.</p>
-                </section>
-            </div>
-            <div id="weather-section">
-                <section>
-                    <h2>Current Weather</h2>
-                    <img id="weather-icon" src="images/chamber-of-commerce-logo.png" alt="Temp"> <span id="current-temp"></span>
-                    <span id="desc-temp"></span>
-                    <span id="max-temp"></span>
-                    <span id="low-temp"></span>
-                    <span id="hum-temp"></span>
-                    <span id="sunrise"></span>
-                    <span id="sunset"></span>
-                </section>
-            </div>
-            <div id="forecast-section">
-                <section>
-                    <h2>Weather Forecast</h2>
-                    <span id="weather-forecast"></span>
-                </section>
-            </div>
+    <main>
+        <h1>Discover</h1>
+        <div id="discover-container">
         </div>
-        <div id="members-section" class="members">
+        <dialog id="last-visit">
+            <button type="button" id="close-btn-last-visit">✖️</button>
+            <span id="last-visit-message"></span>
+        </dialog>
 
-        </div>
 
     </main>
-
     <footer>
         <div class="gt-chamber-info">
             <h2>Guatemala Chamber of Commerce</h2>
