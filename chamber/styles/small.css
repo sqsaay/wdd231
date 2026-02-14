@@ -497,7 +497,7 @@ dialog {
     background-color: var(--primary-color);
     max-width: 300px;
     min-width: 100px;
-    max-height: 50px;
+    max-height: 70px;
     position: absolute;
     top: 10%;
 }

@@ -15,6 +15,7 @@ const displayPlaces = (places) => {
         const placeBtn = document.createElement("button");
 
         portrait.setAttribute("src", place.photo_url);
+        portrait.setAttribute("alt", place.name)
         portrait.setAttribute("width", "300");
         portrait.setAttribute("height", "200");
         portrait.setAttribute("loading", "lazy");
