@@ -51,7 +51,7 @@
                 <ul >
                     <li><a href="index.html" >Home</a></li>
                     <li><a href="artists.html">Artists</a></li>
-                    <li><a href="joinus.html" class="active-tab">About Us</a></li>
+                    <li><a href="joinus.html" class="active-tab">Join Us</a></li>
                 </ul>
             </nav>
             <img src="images/guide-music-logo.png" alt="Guide Music Logo" height="80px" width="auto">
@@ -62,18 +62,25 @@
 
         <div id="reveal-div"></div>
         <div class="welcome-container">
-            <form method="get" action="review.html">
+            <form method="GET" action="review.html">
 
-                <label for="username">Your Name: *</label>
-                <input type="text" id="username" name="username" required="">
-                <label for="email">Your email address: *</label>
-                <input type="text" id="email" name="email" required="">
-                <label for="genre">Choose the genre you like: *</label>
+                <label for="username">Full Name: <span id="form-star">*</span></label>
+                <input type="text" id="username" name="username" required="" placeholder="Samantha Salazar" >
+                <label for="email">Email address: <span id="form-star">*</span></label>
+                <input type="text" id="email" name="email" required="" type="email" placeholder="joinus@yourguidetomusic.com">
+                <label for="phone">Phone Number: <span id="form-star">*</span></label>
+                <input type="tel" id="phone" name="phone" required="" placeholder="(Code Area) 5424 8392">
+                <label for="genre">Choose the genre you like: <span id="form-star">*</span></label>
                 <select id="genre" name="genre" required="">
-                    <option value="" disabled="" selected="">Select a Product ...</option>
+                    <option value="" disabled="" selected="">Select a Genre...</option>
+                    <option value="Rock">Rock...</option>
+                    <option value="Jazz">Jazz...</option>
+                    <option value="Pop">Pop...</option>
+                    <option value="Electronic">Electronic...</option>
+                    <option value="Other">Other...</option>
                 </select>
 
-                <div>Rate how much you loved the concert: *</div>
+                <div>Rate how much you would love a concert: <span id="form-star">*</span></div>
                 <div class="rating-group">
                     <label><input type="radio" id="rating1" name="rating" value="1" required=""> ☆</label>
                     <label><input type="radio" id="rating2" name="rating" value="2" required=""> ☆☆</label>
@@ -82,17 +89,17 @@
                     <label><input type="radio" id="rating5" name="rating" value="5" required=""> ☆☆☆☆☆</label>
                 </div>
 
-                <label for="artistName">Artist name: *</label>
-                <input type="text" id="artistName" name="artistName" required="">
+                <label for="artistName">Artist name: <span id="form-star">*</span></label>
+                <input type="text" id="artistName" name="artistName" required="" placeholder="Halsey">
 
-                <div>What you liked it the most of the concert (check all that apply):</div>
+                <div>What would you like the most of a concert (check all that apply):</div>
                 <label><input type="checkbox" id="feature1" name="features" value="show"> Show</label>
                 <label><input type="checkbox" id="feature2" name="features" value="price"> Price</label>
                 <label><input type="checkbox" id="feature3" name="features" value="setlist"> Setlist</label>
                 <label><input type="checkbox" id="feature4" name="features" value="Venue"> Venue</label>
 
 
-                <label for="review">Written Review (Optional):</label>
+                <label for="review">Comment to connect with others (Optional):</label>
                 <textarea id="review" name="review" rows="4" cols="50"></textarea>
 
 

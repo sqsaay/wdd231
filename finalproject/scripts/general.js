@@ -14,8 +14,12 @@ navButton.addEventListener('click', () => {
     navBar.classList.toggle('show');
 });
 
-const babygender = "niña";
-const reveal = document.querySelector("#reveal-div");
+//Form get info
+const joinUsInfo = new URLSearchParams(window.location.search);
 
-reveal.innerHTML = `🎉 Congratulations! You are having a <strong>${babygender}</strong>!`;
-
+document.querySelector('.review-container').innerHTML =`
+<h2>Review Submitted</h2>
+<p>Thank you for submitting the review ${joinUsInfo.get('username')}</p>
+<p>We have sent you the details to ${joinUsInfo.get('email')}</p>
+<p>You will hear soon from us to get details of ${joinUsInfo.get('artistName')}</p>
+`;

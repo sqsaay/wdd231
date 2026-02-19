@@ -2,6 +2,7 @@
     --main-color: #061830;
     --secondary-color: #00B1FA;
     --third-color: #004666;
+    --fourth-color: #cd51fa;
     --accent-color: #e4f1fe;
     --secondary-accent-color: #1B365C;
     --tertiary-accent-color: #fefefe;
@@ -198,19 +199,12 @@ form {
     padding: 20px;
     padding: 1rem;
     max-width: 600px;
-    color: var(--tertiary-accent-color);
-    background-color: var(--third-color);
+    color: var(--accent-color);
+    background-color: var(--main-color);
     padding: 2rem;
     border-radius: 8px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-}
-
-h2 {
-    text-align: center;
-    font-family: var(--title-font);
-    background-color: var(--main-color);
-    color: var(--accent-color);
-    margin-bottom: 1.5rem;
+    border: solid 1px #cd51fa;
 }
 
 label,
@@ -221,7 +215,7 @@ div {
 }
 
 select,
-input[type="text"],
+input[type="text"], input[type="tel"],
 textarea {
     width: 100%;
     padding: 0.75rem;
@@ -265,10 +259,67 @@ input[type="submit"] {
     border-radius: 8px;
     cursor: pointer;
     margin-top: 2rem;
+    font-weight: 700;
     width: 100%;
+}
+input[type="submit"]:hover {
+    background-color: var(--secondary-accent-color);
+    color: var(--secondary-color);
+    border: solid 1px var(--accent-color);
+   
+}
+#form-star{
+    color: #cd51fa;
 }
 
 /*#endregion join us*/
+
+/*Review page*/
+.review-container{
+    height: calc(80vh - 132.5px);
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    justify-content: center;
+    align-items: center;
+}
+.review-container h2{
+    color: var(--accent-color);
+    animation: bounce-title 2s ease-in-out infinite;
+
+}
+/*review page*/
+
+/*#region Artists Page*/
+.artist-container{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    justify-content: center;
+}
+.artistSection{
+    margin: auto 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    padding: 10px;
+    border: solid 1px var(--fourth-color);
+    border-radius: 15px;
+}
+
+.artistSection h2{
+    font-family: var(--title-font);
+    font-weight: 450;
+}
+.artistSection img{
+    border-radius: 15px;
+}
+.artistButtons{
+    min-width: 100px;
+}
+/*#endregion Artist Page*/
+
 /*Footer*/
 footer {
     background-color: var(--secondary-color);
@@ -293,7 +344,48 @@ footer p {
 }
 
 /*End Footer*/
+/*Modal*/
+.modal {
+  display: none; /* hidden by default */
+  position: fixed;
+  z-index: 1000;
+  left: 0; top: 0;
+  width: 100%; height: 100%;
+  background: #00affab7;
+}
 
+.modal-content {
+  background: var(--fourth-color);
+  margin: 10% auto;
+  padding: 20px;
+  width: 80%;
+  max-width: 500px;
+  border-radius: 8px;
+  animation: fadeIn 0.3s ease;
+  text-align: center;
+  border: solid 2px var(--accent-color);
+}
+
+.closeBtn {
+  float: right;
+  font-size: 24px;
+  cursor: pointer;
+  color: black;
+}
+
+#modalName, #modalConcerts p{
+    color: var(--main-color);
+}  
+#modalDescription{
+    color: var(--secondary-accent-color);
+}
+
+@keyframes fadeIn {
+  from {opacity: 0; transform: scale(0.95);}
+  to {opacity: 1; transform: scale(1);}
+}
+
+/*End Modal*/
 
 /*Animations*/
 @keyframes bounce-title {
@@ -351,5 +443,23 @@ footer p {
     margin: auto 50px;
 }
 
+
+.artist-container{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    justify-content: center;
+}
+.artistSection{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 10px;
+    padding: 10px;
+    background-color: var(--fourth-color);
+}
+.artistSection h2, .artistSection p{
+    color: var(--main-color);
+}
 
 }
