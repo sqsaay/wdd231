@@ -78,6 +78,7 @@ header{
 header img {
     grid-area: header-img;
     border-radius: 50%;
+    width: auto;
     justify-self: center;
 }
 
@@ -196,8 +197,6 @@ button:hover {
 form {
     margin: 20px auto;
     margin-bottom: 20px;
-    padding: 20px;
-    padding: 1rem;
     max-width: 600px;
     color: var(--accent-color);
     background-color: var(--main-color);

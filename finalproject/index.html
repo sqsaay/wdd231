@@ -8,12 +8,13 @@
     <meta name="description"
         content="Your ultimate guide to live music concerts, featuring artist info, concert schedules, and ticketing details.">
     <meta name="author" content="Samantha Salazar">
+    <link rel="icon" href="images/favicon.ico">
     <meta property="og:title" content="Final Project">
     <meta property="og:description"
         content="Your ultimate guide to live music concerts, featuring artist info, concert schedules, and ticketing details.">
     <meta property="og:url" content="http://sqsaay.github.io/wdd231/finalproject">
     <meta property="og:locale" content="en_US">
-    <meta property="og:image" content="https://sqsaay.github.io/wdd131/project/images/guide-music-logo.png">
+    <meta property="og:image" content="https://sqsaay.github.io/wdd231/finalproject/images/guide-music-logo.png">
     <meta property="og:type" content="website">
     <meta property="og:site_name" content="Final Project">
 
@@ -56,7 +57,7 @@
                     <li><a href="joinus.html">Join Us</a></li>
                 </ul>
             </nav>
-            <img src="images/guide-music-logo.png" alt="Guide Music Logo" height="80px" width="auto">
+            <img src="images/guide-music-logo.png" alt="Guide Music Logo" height="80" width="30">
             <button id="nav-button" class="hamburguer" aria-label="navigation"></button>
         </header>
 
@@ -88,7 +89,10 @@
                     Stay connected with the artists who inspire you, and never miss a chance to experience their music
                     live.
                 </p>
-                <a href="artists.html"><button class="artist-btn animate-btn">Learn More</button></a>
+                <button class="artist-btn animate-btn" onclick="location.href='artists.html'">
+                    Learn More
+                </button>
+
             </section>
         </div>
         <div class="fullscreen section-three">
@@ -101,7 +105,10 @@
                     Connect with fellow fans, share your favorite concert moments, and discover new artists along the
                     way. Whether you're looking to plan your next big night out or simply stay in the loop, our
                     community is here to keep the music alive.</p>
-                <a href="joinus.html"><button class="artist-btn animate-btn">Learn More</button></a>
+                <button class="artist-btn animate-btn" onclick="location.href='joinus.html'">
+                    Learn More
+                </button>
+
             </section>
         </div>
     </main>
