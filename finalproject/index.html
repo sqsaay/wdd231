@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home - Your Guide To Live Music</title>
+    <meta name="description" content="Your ultimate guide to live music concerts, featuring artist info, concert schedules, and ticketing details.">
+    <meta name="author" content="Samantha Salazar">
+    <meta property="og:title" content="Final Project">
+    <meta property="og:description"
+        content="Your ultimate guide to live music concerts, featuring artist info, concert schedules, and ticketing details.">
+    <meta property="og:url" content="http://sqsaay.github.io/wdd231/finalproject">
+    <meta property="og:locale" content="en_US">
+    <meta property="og:image" content="https://sqsaay.github.io/wdd131/project/images/guide-music-logo.png">
+    <meta property="og:type" content="website">
+    <meta property="og:site_name" content="Final Project">
+
+
+    <!--CSS & Scripts-->
+    <link rel="stylesheet" href="styles/project.css">
+    <link rel="stylesheet" href="styles/project-large.css">
+    <link rel="stylesheet" href="../styles/normalize.css">
+    <script src="scripts/index.js" defer></script>
+    <script src="scripts/general.js" defer></script>
+
+    <!--End CSS & Scripts-->
+
+
+    <!--Google fonts  Titles-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Bitcount+Prop+Single:wght@100..900&family=Quicksand:wght@700&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+    <!--End Google fonts  -->
+    <!--Google fonts  Body-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+    <!--End Google fonts  -->
+
+</head>
+
+<body>
+    <div class="fullscreen section-one">
+        <header>
+            <p>Your Guide To Live Music</p>
+            <nav id="nav-bar" class="navigation">
+                <ul >
+                    <li><a href="index.html" class="active-tab">Home</a></li>
+                    <li><a href="artists.html">Artists</a></li>
+                    <li><a href="joinus.html">About Us</a></li>
+                </ul>
+            </nav>
+            <img src="images/guide-music-logo.png" alt="Guide Music Logo" height="80px" width="auto">
+            <button id="nav-button" class="hamburguer" aria-label="navigation"></button>
+        </header>
+            
+             
+        <h1>Home</h1>
+        <section class="card hero">
+            <h2 class="animate-text">Welcome to Your Ultimate Concert Guide!</h2>
+            <img src="images/hero-image.webp" alt="Hero">
+            <p>Welcome to your ultimate guide to live music concerts! Here, you'll find everything you need to
+                stay
+                updated
+                on your favorite artists, upcoming concert schedules, and ticketing details. Whether you're a
+                casual
+                listener or a die-hard fan, our site is designed to enhance your concert-going experience.</p>
+            <button class="hero-btn animate-btn">Learn More</button>
+        </section>
+    </div>
+
+    <main>
+
+
+        <div class="fullscreen section-two">
+            <section id="artists" class=" card artist">
+                <img src="images/artists-info.webp" alt="Artists Info">
+                <h2>Discover the Artists You Love</h2>
+                <p>Dive into the stories behind your favorite performers! Our Artists section brings you closer to the
+                    music by showcasing detailed profiles, discographies, and upcoming tour dates. Whether you're
+                    following global superstars or exploring rising talents, you'll find curated insights that highlight
+                    their journey, style, and latest projects.
+                    Stay connected with the artists who inspire you, and never miss a chance to experience their music
+                    live.
+                </p>
+                <button class="artist-btn animate-btn">Learn More</button>
+            </section>
+        </div>
+         <div class="fullscreen section-three">
+        <section id="join-us" class="card join">
+            <img src="images/guitar-join-us.webp" alt="Join Us">
+            <h2>Be Part of the Music Community</h2>
+            <p>Concerts are more than just performances — they're shared experiences that bring people together. By
+                joining us, you'll gain access to exclusive updates, ticket alerts, and insider tips to make every
+                show unforgettable.
+                Connect with fellow fans, share your favorite concert moments, and discover new artists along the
+                way. Whether you're looking to plan your next big night out or simply stay in the loop, our
+                community is here to keep the music alive.</p>
+            <button class="join-btn animate-btn">Learn More</button>
+        </section>
+    </div>
+    </main>
+
+    <footer>
+            <div class="icons">
+                <a href="https://github.com/sqsaay/" target="_blank" rel="noopener noreferrer">
+                    <img src="../images/github.svg" alt="Github account" height="40">
+                </a>
+                <a href="https://www.linkedin.com/in/ssalazarq/" target="_blank" rel="noopener noreferrer">
+                    <img src="../images/linkedin-circle.svg" alt="LinkedIn account" height="40">
+                </a>
+                <a href="https://x.com" target="_blank" rel="noopener noreferrer">
+                    <img src="../images/x-alt-circle.svg" alt="X account" height="40">
+                </a>
+            </div>
+            <div class="author-info">
+                <p>©️ <span id="currentyear"></span> • Samantha Salazar • Guatemala City</p>
+            </div>
+            <div class="last-modify">
+                <p>Last Modification: <span id="lastModified"></span></p>
+            </div>
+        </footer>
+
+</body>
+
+</html>

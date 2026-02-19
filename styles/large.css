@@ -1,66 +1,73 @@
-@media (min-width: 400px){
+@media (min-width: 400px) {
 
-    .navigation{
+    .navigation {
         margin: auto 5px;
         display: block;
     }
 
-    .hamburguer{
+    .hamburguer {
         display: none;
     }
-    h1{
+
+    h1 {
         padding-left: 5px;
     }
-nav ul {
-    display: flex;
-}
-  li {
+
+    nav ul {
+        display: flex;
+    }
+
+    li {
         flex: 1 1 100%;
         justify-items: center;
         text-align: center;
         align-content: center;
     }
 
-    .current a{
+    .current a {
         color: var(--tertiary-accent)
     }
-    a{
+
+    a {
         color: var(--secondary-accent);
     }
 
     /*Information Container*/
-    .grid-container{
+    .grid-container {
         display: grid;
         grid-template-columns: 2fr 1fr;
-        grid-gap: 1rem;  
+        grid-gap: 1rem;
     }
 
-    .photo-section{
+    .photo-section {
         height: 100%;
     }
 
-    .span-item{
+    .span-item {
         grid-column: span 2;
-        
+
     }
-    section img{
+
+    section img {
         padding: 5px;
         width: 50%;
         height: auto;
         margin: auto 0;
     }
 
-/* Courses container*/
-.courses-container{
-    display: grid;
-    grid-template-columns: auto auto auto;
-    text-align: center;
-}
+    /* Courses container*/
+    .courses-container {
+        display: grid;
+        grid-template-columns: auto auto auto;
+        text-align: center;
+    }
 
 
-/*Footer*/
-#lastModify, #currentYear, footer p{
-    font-size: 15px;
-}
+    /*Footer*/
+    #lastModify,
+    #currentYear,
+    footer p {
+        font-size: 15px;
+    }
 
 }
