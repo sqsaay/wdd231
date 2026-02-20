@@ -5,7 +5,7 @@ document.addEventListener("DOMContentLoaded", () => {
   let isScrolling = false;
 
   window.addEventListener("wheel", (event) => {
-    if (isScrolling) return; 
+    if (isScrolling) return;
     isScrolling = true;
 
     if (event.deltaY > 0 && currentIndex < sections.length - 1) {

@@ -29,14 +29,14 @@
     grid-area: header-nav;
 }
 
-.navigation.show  {
+.navigation.show {
     display: flex;
     justify-content: center;
     background-color: var(--secondary-color);
-    }
+}
 
-.navigation.show a{
-    color: var(--secondary-accent-color); 
+.navigation.show a {
+    color: var(--secondary-accent-color);
     min-height: 50px;
     align-content: center;
 }
@@ -67,11 +67,11 @@ body {
     background-color: var(--main-color);
 }
 
-header{
+header {
     display: grid;
-    grid-template-areas: 
-    "header-p header-img header-btn"
-    "header-nav header-nav header-nav";
+    grid-template-areas:
+        "header-p header-img header-btn"
+        "header-nav header-nav header-nav";
     align-items: center;
 }
 
@@ -97,13 +97,15 @@ nav a {
     max-width: 1023px;
     text-align: center;
 }
-.card{
+
+.card {
     display: flex;
     flex-direction: column;
     padding: 5px;
     justify-content: center;
     gap: 5px;
 }
+
 .card img {
     grid-area: home-img;
     z-index: -1;
@@ -214,7 +216,8 @@ div {
 }
 
 select,
-input[type="text"], input[type="tel"],
+input[type="text"],
+input[type="tel"],
 textarea {
     width: 100%;
     padding: 0.75rem;
@@ -261,20 +264,22 @@ input[type="submit"] {
     font-weight: 700;
     width: 100%;
 }
+
 input[type="submit"]:hover {
     background-color: var(--secondary-accent-color);
     color: var(--secondary-color);
     border: solid 1px var(--accent-color);
-   
+
 }
-#form-star{
+
+#form-star {
     color: #cd51fa;
 }
 
 /*#endregion join us*/
 
 /*Review page*/
-.review-container{
+.review-container {
     height: calc(80vh - 132.5px);
     display: flex;
     flex-direction: column;
@@ -282,21 +287,24 @@ input[type="submit"]:hover {
     justify-content: center;
     align-items: center;
 }
-.review-container h2{
+
+.review-container h2 {
     color: var(--accent-color);
     animation: bounce-title 2s ease-in-out infinite;
 
 }
+
 /*review page*/
 
 /*#region Artists Page*/
-.artist-container{
+.artist-container {
     display: flex;
     flex-direction: column;
     gap: 15px;
     justify-content: center;
 }
-.artistSection{
+
+.artistSection {
     margin: auto 5px;
     display: flex;
     flex-direction: column;
@@ -307,16 +315,19 @@ input[type="submit"]:hover {
     border-radius: 15px;
 }
 
-.artistSection h2{
+.artistSection h2 {
     font-family: var(--title-font);
     font-weight: 450;
 }
-.artistSection img{
+
+.artistSection img {
     border-radius: 15px;
 }
-.artistButtons{
+
+.artistButtons {
     min-width: 100px;
 }
+
 /*#endregion Artist Page*/
 
 /*Footer*/
@@ -336,6 +347,7 @@ footer p {
     display: flex;
     justify-content: center;
     gap: 15px;
+    margin-bottom: 10px;
 }
 
 .last-modify {
@@ -345,43 +357,55 @@ footer p {
 /*End Footer*/
 /*Modal*/
 .modal {
-  display: none; /* hidden by default */
-  position: fixed;
-  z-index: 1000;
-  left: 0; top: 0;
-  width: 100%; height: 100%;
-  background: #00affab7;
+    display: none;
+    /* hidden by default */
+    position: fixed;
+    z-index: 1000;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: #00affab7;
 }
 
 .modal-content {
-  background: var(--fourth-color);
-  margin: 10% auto;
-  padding: 20px;
-  width: 80%;
-  max-width: 500px;
-  border-radius: 8px;
-  animation: fadeIn 0.3s ease;
-  text-align: center;
-  border: solid 2px var(--accent-color);
+    background: var(--fourth-color);
+    margin: 10% auto;
+    padding: 20px;
+    width: 80%;
+    max-width: 500px;
+    border-radius: 8px;
+    animation: fadeIn 0.3s ease;
+    text-align: center;
+    border: solid 2px var(--accent-color);
 }
 
 .closeBtn {
-  float: right;
-  font-size: 24px;
-  cursor: pointer;
-  color: black;
+    float: right;
+    font-size: 24px;
+    cursor: pointer;
+    color: black;
 }
 
-#modalName, #modalConcerts p{
+#modalName,
+#modalConcerts p {
     color: var(--main-color);
-}  
-#modalDescription{
+}
+
+#modalDescription {
     color: var(--secondary-accent-color);
 }
 
 @keyframes fadeIn {
-  from {opacity: 0; transform: scale(0.95);}
-  to {opacity: 1; transform: scale(1);}
+    from {
+        opacity: 0;
+        transform: scale(0.95);
+    }
+
+    to {
+        opacity: 1;
+        transform: scale(1);
+    }
 }
 
 /*End Modal*/
@@ -430,35 +454,38 @@ footer p {
 
 @media (min-width: 550px) {
     .card {
-    min-height: 500px;
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    max-width: 800px;
-    justify-self: center;
-    grid-template-areas:
-        "home-img home-h2"
-        "home-img home-desc"
-        "home-img home-btn";
-    margin: auto 50px;
-}
+        min-height: 500px;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        max-width: 800px;
+        justify-self: center;
+        grid-template-areas:
+            "home-img home-h2"
+            "home-img home-desc"
+            "home-img home-btn";
+        margin: auto 50px;
+    }
 
 
-.artist-container{
-    display: flex;
-    flex-direction: column;
-    gap: 15px;
-    justify-content: center;
-}
-.artistSection{
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    gap: 10px;
-    padding: 10px;
-    background-color: var(--fourth-color);
-}
-.artistSection h2, .artistSection p{
-    color: var(--main-color);
-}
+    .artist-container {
+        display: flex;
+        flex-direction: column;
+        gap: 15px;
+        justify-content: center;
+    }
+
+    .artistSection {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        gap: 10px;
+        padding: 10px;
+        background-color: var(--fourth-color);
+    }
+
+    .artistSection h2,
+    .artistSection p {
+        color: var(--main-color);
+    }
 
 }

@@ -8,7 +8,7 @@ async function getData() {
     return data.artists;
   } catch (error) {
     console.error("Error fetching data:", error);
-    return []; 
+    return [];
   }
 }
 
@@ -23,7 +23,7 @@ function displayArtists(artists) {
   artists.forEach(artist => {
     const card = document.createElement("section");
     card.classList = "artistSection";
-    card.dataset.artist = artist.name; 
+    card.dataset.artist = artist.name;
     const name = document.createElement("h2");
     name.textContent = artist.name;
 

@@ -17,7 +17,7 @@ navButton.addEventListener('click', () => {
 //Form get info
 const joinUsInfo = new URLSearchParams(window.location.search);
 
-document.querySelector('.review-container').innerHTML =`
+document.querySelector('.review-container').innerHTML = `
 <h2>Review Submitted</h2>
 <p>Thank you for submitting the review ${joinUsInfo.get('username')}</p>
 <p>We have sent you the details to ${joinUsInfo.get('email')}</p>

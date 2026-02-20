@@ -1,471 +1,471 @@
 {
-    "artists": [
+  "artists": [
+    {
+      "name": "Taylor Swift",
+      "genre": "Pop",
+      "concerts_2026": [
         {
-            "name": "Taylor Swift",
-            "genre": "Pop",
-            "concerts_2026": [
-                {
-                    "city": "London",
-                    "venue": "Wembley Stadium",
-                    "date": "2026-06-21"
-                },
-                {
-                    "city": "Los Angeles",
-                    "venue": "SoFi Stadium",
-                    "date": "2026-08-15"
-                }
-            ],
-            "description": "Taylor Swift is an American singer-songwriter known for her narrative songwriting and genre-spanning discography, from country beginnings to pop and indie folk.",
-            "image": "https://images.unsplash.com/photo-1692796226663-dd49d738f43c?w=1000&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8dGF5bG9yJTIwc3dpZnR8ZW58MHx8MHx8fDI%3D"
+          "city": "London",
+          "venue": "Wembley Stadium",
+          "date": "2026-06-21"
         },
         {
-            "name": "Halsey",
-            "genre": "Pop / Alternative",
-            "concerts_2026": [
-                {
-                    "city": "Paris",
-                    "venue": "Accor Arena",
-                    "date": "2026-04-18"
-                }
-            ],
-            "description": "Halsey is an American singer-songwriter known for her confessional lyrics and genre-blending style, spanning pop, alternative, and electronic influences.",
-            "image": "https://live.staticflickr.com/65535/49311691852_1edd406895_n.jpg"
-        },
+          "city": "Los Angeles",
+          "venue": "SoFi Stadium",
+          "date": "2026-08-15"
+        }
+      ],
+      "description": "Taylor Swift is an American singer-songwriter known for her narrative songwriting and genre-spanning discography, from country beginnings to pop and indie folk.",
+      "image": "https://images.unsplash.com/photo-1692796226663-dd49d738f43c?w=1000&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8dGF5bG9yJTIwc3dpZnR8ZW58MHx8MHx8fDI%3D"
+    },
+    {
+      "name": "Halsey",
+      "genre": "Pop / Alternative",
+      "concerts_2026": [
         {
-            "name": "The Killers",
-            "genre": "Alternative Rock",
-            "concerts_2026": [
-                {
-                    "city": "London",
-                    "venue": "O2 Arena",
-                    "date": "2026-06-12"
-                }
-            ],
-            "description": "The Killers are an American rock band from Las Vegas, famous for hits like 'Mr. Brightside' and their energetic live performances.",
-            "image": "https://live.staticflickr.com/3460/3375199745_4db3238bd3_n.jpg"
-        },
+          "city": "Paris",
+          "venue": "Accor Arena",
+          "date": "2026-04-18"
+        }
+      ],
+      "description": "Halsey is an American singer-songwriter known for her confessional lyrics and genre-blending style, spanning pop, alternative, and electronic influences.",
+      "image": "https://live.staticflickr.com/65535/49311691852_1edd406895_n.jpg"
+    },
+    {
+      "name": "The Killers",
+      "genre": "Alternative Rock",
+      "concerts_2026": [
         {
-            "name": "Thirty Seconds to Mars",
-            "genre": "Alternative Rock",
-            "concerts_2026": [
-                {
-                    "city": "Berlin",
-                    "venue": "Mercedes-Benz Arena",
-                    "date": "2026-05-20"
-                }
-            ],
-            "description": "Thirty Seconds to Mars is an American rock band led by Jared Leto, known for their cinematic sound and powerful live shows.",
-            "image": "https://live.staticflickr.com/5765/29425959003_f14b137fb2_n.jpg"
-        },
+          "city": "London",
+          "venue": "O2 Arena",
+          "date": "2026-06-12"
+        }
+      ],
+      "description": "The Killers are an American rock band from Las Vegas, famous for hits like 'Mr. Brightside' and their energetic live performances.",
+      "image": "https://live.staticflickr.com/3460/3375199745_4db3238bd3_n.jpg"
+    },
+    {
+      "name": "Thirty Seconds to Mars",
+      "genre": "Alternative Rock",
+      "concerts_2026": [
         {
-            "name": "Breaking Benjamin",
-            "genre": "Post-Grunge / Alternative Metal",
-            "concerts_2026": [
-                {
-                    "city": "Chicago",
-                    "venue": "United Center",
-                    "date": "2026-07-08"
-                }
-            ],
-            "description": "Breaking Benjamin is an American rock band recognized for their heavy riffs and emotional lyrics, with a loyal fan base in alternative and metal scenes.",
-            "image": "https://live.staticflickr.com/4511/37242928734_f4c5ae912e_n.jpg"
-        },
+          "city": "Berlin",
+          "venue": "Mercedes-Benz Arena",
+          "date": "2026-05-20"
+        }
+      ],
+      "description": "Thirty Seconds to Mars is an American rock band led by Jared Leto, known for their cinematic sound and powerful live shows.",
+      "image": "https://live.staticflickr.com/5765/29425959003_f14b137fb2_n.jpg"
+    },
+    {
+      "name": "Breaking Benjamin",
+      "genre": "Post-Grunge / Alternative Metal",
+      "concerts_2026": [
         {
-            "name": "Khalid",
-            "genre": "R&B / Pop",
-            "concerts_2026": [
-                {
-                    "city": "Los Angeles",
-                    "venue": "Hollywood Bowl",
-                    "date": "2026-08-02"
-                }
-            ],
-            "description": "Khalid is an American singer-songwriter known for his soulful voice and hits like 'Location' and 'Young Dumb & Broke'.",
-            "image": "https://live.staticflickr.com/1747/42540734181_004115131f_n.jpg"
-        },
+          "city": "Chicago",
+          "venue": "United Center",
+          "date": "2026-07-08"
+        }
+      ],
+      "description": "Breaking Benjamin is an American rock band recognized for their heavy riffs and emotional lyrics, with a loyal fan base in alternative and metal scenes.",
+      "image": "https://live.staticflickr.com/4511/37242928734_f4c5ae912e_n.jpg"
+    },
+    {
+      "name": "Khalid",
+      "genre": "R&B / Pop",
+      "concerts_2026": [
         {
-            "name": "Paramore",
-            "genre": "Alternative Rock / Pop Punk",
-            "concerts_2026": [
-                {
-                    "city": "Manchester",
-                    "venue": "AO Arena",
-                    "date": "2026-05-14"
-                }
-            ],
-            "description": "Paramore is an American rock band fronted by Hayley Williams, known for their energetic pop-punk sound and hits like 'Misery Business' and 'Still Into You'.",
-            "image": "https://live.staticflickr.com/6133/6004481802_21605365f0_n.jpg"
-        },
+          "city": "Los Angeles",
+          "venue": "Hollywood Bowl",
+          "date": "2026-08-02"
+        }
+      ],
+      "description": "Khalid is an American singer-songwriter known for his soulful voice and hits like 'Location' and 'Young Dumb & Broke'.",
+      "image": "https://live.staticflickr.com/1747/42540734181_004115131f_n.jpg"
+    },
+    {
+      "name": "Paramore",
+      "genre": "Alternative Rock / Pop Punk",
+      "concerts_2026": [
         {
-            "name": "Fall Out Boy",
-            "genre": "Pop Punk / Alternative Rock",
-            "concerts_2026": [
-                {
-                    "city": "Chicago",
-                    "venue": "United Center",
-                    "date": "2026-07-02"
-                }
-            ],
-            "description": "Fall Out Boy is an American rock band from Chicago, blending pop-punk and emo with mainstream success through songs like 'Sugar, We're Goin Down' and 'Centuries'.",
-            "image": "https://live.staticflickr.com/5566/14802209433_3a378d4bb4_n.jpg"
-        },
+          "city": "Manchester",
+          "venue": "AO Arena",
+          "date": "2026-05-14"
+        }
+      ],
+      "description": "Paramore is an American rock band fronted by Hayley Williams, known for their energetic pop-punk sound and hits like 'Misery Business' and 'Still Into You'.",
+      "image": "https://live.staticflickr.com/6133/6004481802_21605365f0_n.jpg"
+    },
+    {
+      "name": "Fall Out Boy",
+      "genre": "Pop Punk / Alternative Rock",
+      "concerts_2026": [
         {
-            "name": "Panic! At The Disco",
-            "genre": "Pop Rock / Alternative",
-            "concerts_2026": [
-                {
-                    "city": "Los Angeles",
-                    "venue": "Staples Center",
-                    "date": "2026-08-10"
-                }
-            ],
-            "description": "Panic! At The Disco was formed in Las Vegas and became known for theatrical pop-rock hits like 'I Write Sins Not Tragedies' and 'High Hopes'.",
-            "image": "https://live.staticflickr.com/6018/5924965683_beec7f03b0_n.jpg"
-        },
+          "city": "Chicago",
+          "venue": "United Center",
+          "date": "2026-07-02"
+        }
+      ],
+      "description": "Fall Out Boy is an American rock band from Chicago, blending pop-punk and emo with mainstream success through songs like 'Sugar, We're Goin Down' and 'Centuries'.",
+      "image": "https://live.staticflickr.com/5566/14802209433_3a378d4bb4_n.jpg"
+    },
+    {
+      "name": "Panic! At The Disco",
+      "genre": "Pop Rock / Alternative",
+      "concerts_2026": [
         {
-            "name": "Duke Dumont",
-            "genre": "Electronic / House",
-            "concerts_2026": [
-                {
-                    "city": "Ibiza",
-                    "venue": "Ushuaïa",
-                    "date": "2026-07-25"
-                }
-            ],
-            "description": "Duke Dumont is a British DJ and producer, best known for deep house tracks like 'Ocean Drive' and 'Need U (100%)'.",
-            "image": "https://live.staticflickr.com/3842/14953204115_632f146813_m.jpg"
-        },
+          "city": "Los Angeles",
+          "venue": "Staples Center",
+          "date": "2026-08-10"
+        }
+      ],
+      "description": "Panic! At The Disco was formed in Las Vegas and became known for theatrical pop-rock hits like 'I Write Sins Not Tragedies' and 'High Hopes'.",
+      "image": "https://live.staticflickr.com/6018/5924965683_beec7f03b0_n.jpg"
+    },
+    {
+      "name": "Duke Dumont",
+      "genre": "Electronic / House",
+      "concerts_2026": [
         {
-            "name": "The Neighbourhood",
-            "genre": "Alternative Rock / Indie Pop",
-            "concerts_2026": [
-                {
-                    "city": "New York",
-                    "venue": "Radio City Music Hall",
-                    "date": "2026-09-05"
-                }
-            ],
-            "description": "The Neighbourhood is an American alternative band known for their moody, atmospheric sound and the hit single 'Sweater Weather'.",
-            "image": "https://live.staticflickr.com/8395/8682701163_79835dbb8c_m.jpg"
-        },
-  {
-    "name": "Yellowcard",
-    "genre": "Pop Punk / Alternative Rock",
-    "concerts_2026": [
-      {
-        "city": "Orlando",
-        "venue": "Amway Center",
-        "date": "2026-06-18"
-      }
-    ],
-    "description": "Yellowcard was an American pop punk band best known for their energetic sound and violin-driven melodies, with hits like 'Ocean Avenue'.",
-    "image": "https://live.staticflickr.com/6229/6379721973_6294beea57_n.jpg"
-  },
-  {
-    "name": "Two Door Cinema Club",
-    "genre": "Indie Rock / Alternative",
-    "concerts_2026": [
-      {
-        "city": "Dublin",
-        "venue": "3Arena",
-        "date": "2026-05-22"
-      }
-    ],
-    "description": "Two Door Cinema Club is a Northern Irish indie rock band known for their upbeat, danceable tracks like 'What You Know' and 'Undercover Martyn'.",
-    "image": "https://live.staticflickr.com/65535/48625191932_02bf439af1_m.jpg"
-  },
-  {
-    "name": "Good Charlotte",
-    "genre": "Pop Punk / Alternative Rock",
-    "concerts_2026": [
-      {
-        "city": "Los Angeles",
-        "venue": "Hollywood Palladium",
-        "date": "2026-07-12"
-      }
-    ],
-    "description": "Good Charlotte is an American pop punk band led by Joel and Benji Madden, known for hits like 'Lifestyles of the Rich & Famous'.",
-    "image": "https://live.staticflickr.com/5012/5407151414_0c20915673_n.jpg"
-  },
-  {
-    "name": "The Used",
-    "genre": "Post-Hardcore / Alternative Rock",
-    "concerts_2026": [
-      {
-        "city": "Salt Lake City",
-        "venue": "The Complex",
-        "date": "2026-08-05"
-      }
-    ],
-    "description": "The Used is an American rock band from Utah, recognized for their emotional lyrics and post-hardcore sound, with songs like 'The Taste of Ink'.",
-    "image": "https://live.staticflickr.com/3362/3505553864_422ddfd61c_n.jpg"
-  },
-  {
-    "name": "Bring Me The Horizon",
-    "genre": "Metalcore / Alternative Rock",
-    "concerts_2026": [
-      {
-        "city": "London",
-        "venue": "Wembley Arena",
-        "date": "2026-09-10"
-      }
-    ],
-    "description": "Bring Me The Horizon is a British rock band that evolved from deathcore roots into a diverse alternative sound, known for songs like 'Drown' and 'Can You Feel My Heart'.",
-    "image": "https://live.staticflickr.com/7911/47449914241_f5d0fe9597_n.jpg"
-  },
-  {
-    "name": "3OH!3",
-    "genre": "Electronic / Crunkcore",
-    "concerts_2026": [
-      {
-        "city": "Denver",
-        "venue": "Fillmore Auditorium",
-        "date": "2026-06-09"
-      }
-    ],
-    "description": "3OH!3 is an American electronic duo from Colorado, known for their humorous and energetic style with hits like 'Don't Trust Me' and 'Starstrukk'.",
-    "image": "https://live.staticflickr.com/2834/9279473499_e4ee933671_n.jpg"
-  },
-  {
-    "name": "A Day to Remember",
-    "genre": "Metalcore / Pop Punk",
-    "concerts_2026": [
-      {
-        "city": "Orlando",
-        "venue": "Amway Center",
-        "date": "2026-07-15"
-      }
-    ],
-    "description": "A Day to Remember is an American band blending metalcore and pop punk, famous for songs like 'If It Means a Lot to You' and 'The Downfall of Us All'.",
-    "image": "https://live.staticflickr.com/7233/7282410190_127667e8b5_n.jpg"
-  },
-  {
-    "name": "Linkin Park",
-    "genre": "Alternative Rock / Nu Metal",
-    "concerts_2026": [
-      {
-        "city": "Tokyo",
-        "venue": "Tokyo Dome",
-        "date": "2026-08-20"
-      }
-    ],
-    "description": "Linkin Park is an American rock band known for their fusion of nu metal and rap rock, with iconic albums like 'Hybrid Theory' and 'Meteora'.",
-    "image": "https://live.staticflickr.com/8450/8069302130_46ae667c28_n.jpg"
-  },
-  {
-    "name": "Neon Trees",
-    "genre": "Alternative Rock / Pop Rock",
-    "concerts_2026": [
-      {
-        "city": "Salt Lake City",
-        "venue": "The Depot",
-        "date": "2026-05-28"
-      }
-    ],
-    "description": "Neon Trees is an American rock band from Utah, recognized for their catchy pop-rock hits like 'Animal' and 'Everybody Talks'.",
-    "image": "https://live.staticflickr.com/8319/8067822415_f02ce8997d_w.jpg"
-  },
-  {
-    "name": "Rise Against",
-    "genre": "Punk Rock / Hardcore",
-    "concerts_2026": [
-      {
-        "city": "Berlin",
-        "venue": "Columbiahalle",
-        "date": "2026-09-02"
-      }
-    ],
-    "description": "Rise Against is an American punk rock band known for their politically charged lyrics and songs like 'Savior' and 'Prayer of the Refugee'.",
-    "image": "https://live.staticflickr.com/5092/5483719467_3ecbe1259f_n.jpg"
-  },
-  {
-    "name": "AFI",
-    "genre": "Alternative Rock / Punk Rock",
-    "concerts_2026": [
-      {
-        "city": "San Francisco",
-        "venue": "Bill Graham Civic Auditorium",
-        "date": "2026-06-11"
-      }
-    ],
-    "description": "AFI (A Fire Inside) is an American rock band known for their dark aesthetic and blend of punk, gothic, and alternative influences, with hits like 'Miss Murder'.",
-    "image": "https://live.staticflickr.com/65535/53556826306_6ca5be0b24_n.jpg"
-  },
-  {
-    "name": "The Kooks",
-    "genre": "Indie Rock / Alternative",
-    "concerts_2026": [
-      {
-        "city": "London",
-        "venue": "Roundhouse",
-        "date": "2026-05-19"
-      }
-    ],
-    "description": "The Kooks are a British indie rock band formed in Brighton, known for their catchy guitar-driven songs like 'Naive' and 'She Moves in Her Own Way'.",
-    "image": "https://live.staticflickr.com/7498/15156490144_d7d57e578d_n.jpg"
-  },
-  {
-    "name": "Jimmy Eat World",
-    "genre": "Alternative Rock / Emo",
-    "concerts_2026": [
-      {
-        "city": "Phoenix",
-        "venue": "Arizona Financial Theatre",
-        "date": "2026-07-07"
-      }
-    ],
-    "description": "Jimmy Eat World is an American rock band from Arizona, famous for their melodic emo-influenced sound and songs like 'The Middle' and 'Sweetness'.",
-    "image": "https://live.staticflickr.com/5133/5581357790_dd2383a5e8_m.jpg"
-  },
-  {
-    "name": "The Wombats",
-    "genre": "Indie Rock / Alternative",
-    "concerts_2026": [
-      {
-        "city": "Liverpool",
-        "venue": "M&S Bank Arena",
-        "date": "2026-08-01"
-      }
-    ],
-    "description": "The Wombats are a British indie rock band known for their upbeat, quirky style and songs like 'Let's Dance to Joy Division'.",
-    "image": "https://live.staticflickr.com/2865/10028935313_a6f5989a30_n.jpg"
-  },
-  {
-    "name": "The 1975",
-    "genre": "Indie Pop / Alternative Rock",
-    "concerts_2026": [
-      {
-        "city": "New York",
-        "venue": "Madison Square Garden",
-        "date": "2026-09-15"
-      }
-    ],
-    "description": "The 1975 is a British band blending indie pop, rock, and electronic influences, known for their eclectic sound and songs like 'Love It If We Made It'.",
-    "image": "hhttps://ichef.bbci.co.uk/ace/standard/976/cpsprodpb/8D85/production/_130492263_gettyimages-1539622515.jpg"
-  },
-  {
-    "name": "Anberlin",
-    "genre": "Alternative Rock / Emo",
-    "concerts_2026": [
-      {
-        "city": "Orlando",
-        "venue": "House of Blues",
-        "date": "2026-06-03"
-      }
-    ],
-    "description": "Anberlin is an American alternative rock band from Florida, known for their melodic sound and emotionally charged lyrics, with songs like 'Feel Good Drag'.",
-    "image": "https://live.staticflickr.com/5058/5522781506_13aa98f474_n.jpg"
-  },
-  {
-    "name": "Three Days Grace",
-    "genre": "Alternative Metal / Post-Grunge",
-    "concerts_2026": [
-      {
-        "city": "Toronto",
-        "venue": "Scotiabank Arena",
-        "date": "2026-07-09"
-      }
-    ],
-    "description": "Three Days Grace is a Canadian rock band known for their heavy riffs and emotional themes, with hits like 'I Hate Everything About You' and 'Animal I Have Become'.",
-    "image": "https://live.staticflickr.com/3133/2373574993_8fa789d458_n.jpg"
-  },
-  {
-    "name": "Kings of Leon",
-    "genre": "Alternative Rock / Southern Rock",
-    "concerts_2026": [
-      {
-        "city": "Nashville",
-        "venue": "Bridgestone Arena",
-        "date": "2026-08-12"
-      }
-    ],
-    "description": "Kings of Leon are an American rock band from Tennessee, blending southern rock and alternative influences, famous for songs like 'Sex on Fire' and 'Use Somebody'.",
-    "image": "https://live.staticflickr.com/3056/2690755158_424d4e7985_n.jpg"
-  },
-  {
-    "name": "All Time Low",
-    "genre": "Pop Punk / Alternative Rock",
-    "concerts_2026": [
-      {
-        "city": "Baltimore",
-        "venue": "Merriweather Post Pavilion",
-        "date": "2026-06-25"
-      }
-    ],
-    "description": "All Time Low is an American pop punk band known for their catchy hooks and energetic performances, with songs like 'Dear Maria, Count Me In'.",
-    "image": "https://live.staticflickr.com/3215/2946271212_fb222a75ff_n.jpg"
-  },
-  {
-    "name": "Sick Puppies",
-    "genre": "Alternative Metal / Post-Grunge",
-    "concerts_2026": [
-      {
-        "city": "Sydney",
-        "venue": "Enmore Theatre",
-        "date": "2026-09-01"
-      }
-    ],
-    "description": "Sick Puppies are an Australian rock band known for their heavy yet melodic sound, with songs like 'You're Going Down' and 'All the Same'.",
-    "image": "https://live.staticflickr.com/4048/4436612669_2ee2246ff6_n.jpg"
-  },
-  {
-    "name": "The Weeknd",
-    "genre": "R&B / Pop",
-    "concerts_2026": [
-      {
-        "city": "Toronto",
-        "venue": "Scotiabank Arena",
-        "date": "2026-07-18"
-      }
-    ],
-    "description": "The Weeknd is a Canadian singer-songwriter known for his dark, moody R&B and pop sound, with global hits like 'Blinding Lights' and 'Starboy'.",
-    "image": "https://live.staticflickr.com/7275/7083231965_3cc399878a_m.jpg"
-  },
-  {
-    "name": "Daft Punk",
-    "genre": "Electronic / House",
-    "concerts_2026": [],
-    "description": "Daft Punk was a French electronic music duo famous for pioneering house and electronic music with iconic albums like 'Discovery' and 'Random Access Memories'.",
-    "image": "https://live.staticflickr.com/6200/6118476376_6ac53e6e26_n.jpg"
-  },
-  {
-    "name": "The Chainsmokers",
-    "genre": "Electronic / Pop",
-    "concerts_2026": [
-      {
-        "city": "Las Vegas",
-        "venue": "Encore Beach Club",
-        "date": "2026-06-29"
-      }
-    ],
-    "description": "The Chainsmokers are an American DJ and production duo known for their blend of EDM and pop, with hits like 'Closer' and 'Don't Let Me Down'.",
-    "image": "https://live.staticflickr.com/8879/28734367746_b79317d096_n.jpg"
-  },
-  {
-    "name": "Korn",
-    "genre": "Nu Metal / Alternative Metal",
-    "concerts_2026": [
-      {
-        "city": "Los Angeles",
-        "venue": "The Forum",
-        "date": "2026-08-07"
-      }
-    ],
-    "description": "Korn is an American nu metal band recognized as pioneers of the genre, with heavy riffs and dark themes in songs like 'Freak on a Leash'.",
-    "image": "https://live.staticflickr.com/4052/4325862181_6f3922bcd8_n.jpg"
-  },
-  {
-    "name": "Young the Giant",
-    "genre": "Indie Rock / Alternative",
-    "concerts_2026": [
-      {
-        "city": "Seattle",
-        "venue": "Paramount Theatre",
-        "date": "2026-05-16"
-      }
-    ],
-    "description": "Young the Giant is an American indie rock band known for their melodic sound and songs like 'Cough Syrup' and 'My Body'.",
-    "image": "https://radioimg.audacy.com/aiu-media/GettyImages1827438242-afd6a0be-560e-4a10-8696-30f9e02ae3c5.jpg?width=800"
-  }
-    ]
+          "city": "Ibiza",
+          "venue": "Ushuaïa",
+          "date": "2026-07-25"
+        }
+      ],
+      "description": "Duke Dumont is a British DJ and producer, best known for deep house tracks like 'Ocean Drive' and 'Need U (100%)'.",
+      "image": "https://live.staticflickr.com/3842/14953204115_632f146813_m.jpg"
+    },
+    {
+      "name": "The Neighbourhood",
+      "genre": "Alternative Rock / Indie Pop",
+      "concerts_2026": [
+        {
+          "city": "New York",
+          "venue": "Radio City Music Hall",
+          "date": "2026-09-05"
+        }
+      ],
+      "description": "The Neighbourhood is an American alternative band known for their moody, atmospheric sound and the hit single 'Sweater Weather'.",
+      "image": "https://live.staticflickr.com/8395/8682701163_79835dbb8c_m.jpg"
+    },
+    {
+      "name": "Yellowcard",
+      "genre": "Pop Punk / Alternative Rock",
+      "concerts_2026": [
+        {
+          "city": "Orlando",
+          "venue": "Amway Center",
+          "date": "2026-06-18"
+        }
+      ],
+      "description": "Yellowcard was an American pop punk band best known for their energetic sound and violin-driven melodies, with hits like 'Ocean Avenue'.",
+      "image": "https://live.staticflickr.com/6229/6379721973_6294beea57_n.jpg"
+    },
+    {
+      "name": "Two Door Cinema Club",
+      "genre": "Indie Rock / Alternative",
+      "concerts_2026": [
+        {
+          "city": "Dublin",
+          "venue": "3Arena",
+          "date": "2026-05-22"
+        }
+      ],
+      "description": "Two Door Cinema Club is a Northern Irish indie rock band known for their upbeat, danceable tracks like 'What You Know' and 'Undercover Martyn'.",
+      "image": "https://live.staticflickr.com/65535/48625191932_02bf439af1_m.jpg"
+    },
+    {
+      "name": "Good Charlotte",
+      "genre": "Pop Punk / Alternative Rock",
+      "concerts_2026": [
+        {
+          "city": "Los Angeles",
+          "venue": "Hollywood Palladium",
+          "date": "2026-07-12"
+        }
+      ],
+      "description": "Good Charlotte is an American pop punk band led by Joel and Benji Madden, known for hits like 'Lifestyles of the Rich & Famous'.",
+      "image": "https://live.staticflickr.com/5012/5407151414_0c20915673_n.jpg"
+    },
+    {
+      "name": "The Used",
+      "genre": "Post-Hardcore / Alternative Rock",
+      "concerts_2026": [
+        {
+          "city": "Salt Lake City",
+          "venue": "The Complex",
+          "date": "2026-08-05"
+        }
+      ],
+      "description": "The Used is an American rock band from Utah, recognized for their emotional lyrics and post-hardcore sound, with songs like 'The Taste of Ink'.",
+      "image": "https://live.staticflickr.com/3362/3505553864_422ddfd61c_n.jpg"
+    },
+    {
+      "name": "Bring Me The Horizon",
+      "genre": "Metalcore / Alternative Rock",
+      "concerts_2026": [
+        {
+          "city": "London",
+          "venue": "Wembley Arena",
+          "date": "2026-09-10"
+        }
+      ],
+      "description": "Bring Me The Horizon is a British rock band that evolved from deathcore roots into a diverse alternative sound, known for songs like 'Drown' and 'Can You Feel My Heart'.",
+      "image": "https://live.staticflickr.com/7911/47449914241_f5d0fe9597_n.jpg"
+    },
+    {
+      "name": "3OH!3",
+      "genre": "Electronic / Crunkcore",
+      "concerts_2026": [
+        {
+          "city": "Denver",
+          "venue": "Fillmore Auditorium",
+          "date": "2026-06-09"
+        }
+      ],
+      "description": "3OH!3 is an American electronic duo from Colorado, known for their humorous and energetic style with hits like 'Don't Trust Me' and 'Starstrukk'.",
+      "image": "https://live.staticflickr.com/2834/9279473499_e4ee933671_n.jpg"
+    },
+    {
+      "name": "A Day to Remember",
+      "genre": "Metalcore / Pop Punk",
+      "concerts_2026": [
+        {
+          "city": "Orlando",
+          "venue": "Amway Center",
+          "date": "2026-07-15"
+        }
+      ],
+      "description": "A Day to Remember is an American band blending metalcore and pop punk, famous for songs like 'If It Means a Lot to You' and 'The Downfall of Us All'.",
+      "image": "https://live.staticflickr.com/7233/7282410190_127667e8b5_n.jpg"
+    },
+    {
+      "name": "Linkin Park",
+      "genre": "Alternative Rock / Nu Metal",
+      "concerts_2026": [
+        {
+          "city": "Tokyo",
+          "venue": "Tokyo Dome",
+          "date": "2026-08-20"
+        }
+      ],
+      "description": "Linkin Park is an American rock band known for their fusion of nu metal and rap rock, with iconic albums like 'Hybrid Theory' and 'Meteora'.",
+      "image": "https://live.staticflickr.com/8450/8069302130_46ae667c28_n.jpg"
+    },
+    {
+      "name": "Neon Trees",
+      "genre": "Alternative Rock / Pop Rock",
+      "concerts_2026": [
+        {
+          "city": "Salt Lake City",
+          "venue": "The Depot",
+          "date": "2026-05-28"
+        }
+      ],
+      "description": "Neon Trees is an American rock band from Utah, recognized for their catchy pop-rock hits like 'Animal' and 'Everybody Talks'.",
+      "image": "https://live.staticflickr.com/8319/8067822415_f02ce8997d_w.jpg"
+    },
+    {
+      "name": "Rise Against",
+      "genre": "Punk Rock / Hardcore",
+      "concerts_2026": [
+        {
+          "city": "Berlin",
+          "venue": "Columbiahalle",
+          "date": "2026-09-02"
+        }
+      ],
+      "description": "Rise Against is an American punk rock band known for their politically charged lyrics and songs like 'Savior' and 'Prayer of the Refugee'.",
+      "image": "https://live.staticflickr.com/5092/5483719467_3ecbe1259f_n.jpg"
+    },
+    {
+      "name": "AFI",
+      "genre": "Alternative Rock / Punk Rock",
+      "concerts_2026": [
+        {
+          "city": "San Francisco",
+          "venue": "Bill Graham Civic Auditorium",
+          "date": "2026-06-11"
+        }
+      ],
+      "description": "AFI (A Fire Inside) is an American rock band known for their dark aesthetic and blend of punk, gothic, and alternative influences, with hits like 'Miss Murder'.",
+      "image": "https://live.staticflickr.com/65535/53556826306_6ca5be0b24_n.jpg"
+    },
+    {
+      "name": "The Kooks",
+      "genre": "Indie Rock / Alternative",
+      "concerts_2026": [
+        {
+          "city": "London",
+          "venue": "Roundhouse",
+          "date": "2026-05-19"
+        }
+      ],
+      "description": "The Kooks are a British indie rock band formed in Brighton, known for their catchy guitar-driven songs like 'Naive' and 'She Moves in Her Own Way'.",
+      "image": "https://live.staticflickr.com/7498/15156490144_d7d57e578d_n.jpg"
+    },
+    {
+      "name": "Jimmy Eat World",
+      "genre": "Alternative Rock / Emo",
+      "concerts_2026": [
+        {
+          "city": "Phoenix",
+          "venue": "Arizona Financial Theatre",
+          "date": "2026-07-07"
+        }
+      ],
+      "description": "Jimmy Eat World is an American rock band from Arizona, famous for their melodic emo-influenced sound and songs like 'The Middle' and 'Sweetness'.",
+      "image": "https://live.staticflickr.com/5133/5581357790_dd2383a5e8_m.jpg"
+    },
+    {
+      "name": "The Wombats",
+      "genre": "Indie Rock / Alternative",
+      "concerts_2026": [
+        {
+          "city": "Liverpool",
+          "venue": "M&S Bank Arena",
+          "date": "2026-08-01"
+        }
+      ],
+      "description": "The Wombats are a British indie rock band known for their upbeat, quirky style and songs like 'Let's Dance to Joy Division'.",
+      "image": "https://live.staticflickr.com/2865/10028935313_a6f5989a30_n.jpg"
+    },
+    {
+      "name": "The 1975",
+      "genre": "Indie Pop / Alternative Rock",
+      "concerts_2026": [
+        {
+          "city": "New York",
+          "venue": "Madison Square Garden",
+          "date": "2026-09-15"
+        }
+      ],
+      "description": "The 1975 is a British band blending indie pop, rock, and electronic influences, known for their eclectic sound and songs like 'Love It If We Made It'.",
+      "image": "hhttps://ichef.bbci.co.uk/ace/standard/976/cpsprodpb/8D85/production/_130492263_gettyimages-1539622515.jpg"
+    },
+    {
+      "name": "Anberlin",
+      "genre": "Alternative Rock / Emo",
+      "concerts_2026": [
+        {
+          "city": "Orlando",
+          "venue": "House of Blues",
+          "date": "2026-06-03"
+        }
+      ],
+      "description": "Anberlin is an American alternative rock band from Florida, known for their melodic sound and emotionally charged lyrics, with songs like 'Feel Good Drag'.",
+      "image": "https://live.staticflickr.com/5058/5522781506_13aa98f474_n.jpg"
+    },
+    {
+      "name": "Three Days Grace",
+      "genre": "Alternative Metal / Post-Grunge",
+      "concerts_2026": [
+        {
+          "city": "Toronto",
+          "venue": "Scotiabank Arena",
+          "date": "2026-07-09"
+        }
+      ],
+      "description": "Three Days Grace is a Canadian rock band known for their heavy riffs and emotional themes, with hits like 'I Hate Everything About You' and 'Animal I Have Become'.",
+      "image": "https://live.staticflickr.com/3133/2373574993_8fa789d458_n.jpg"
+    },
+    {
+      "name": "Kings of Leon",
+      "genre": "Alternative Rock / Southern Rock",
+      "concerts_2026": [
+        {
+          "city": "Nashville",
+          "venue": "Bridgestone Arena",
+          "date": "2026-08-12"
+        }
+      ],
+      "description": "Kings of Leon are an American rock band from Tennessee, blending southern rock and alternative influences, famous for songs like 'Sex on Fire' and 'Use Somebody'.",
+      "image": "https://live.staticflickr.com/3056/2690755158_424d4e7985_n.jpg"
+    },
+    {
+      "name": "All Time Low",
+      "genre": "Pop Punk / Alternative Rock",
+      "concerts_2026": [
+        {
+          "city": "Baltimore",
+          "venue": "Merriweather Post Pavilion",
+          "date": "2026-06-25"
+        }
+      ],
+      "description": "All Time Low is an American pop punk band known for their catchy hooks and energetic performances, with songs like 'Dear Maria, Count Me In'.",
+      "image": "https://live.staticflickr.com/3215/2946271212_fb222a75ff_n.jpg"
+    },
+    {
+      "name": "Sick Puppies",
+      "genre": "Alternative Metal / Post-Grunge",
+      "concerts_2026": [
+        {
+          "city": "Sydney",
+          "venue": "Enmore Theatre",
+          "date": "2026-09-01"
+        }
+      ],
+      "description": "Sick Puppies are an Australian rock band known for their heavy yet melodic sound, with songs like 'You're Going Down' and 'All the Same'.",
+      "image": "https://live.staticflickr.com/4048/4436612669_2ee2246ff6_n.jpg"
+    },
+    {
+      "name": "The Weeknd",
+      "genre": "R&B / Pop",
+      "concerts_2026": [
+        {
+          "city": "Toronto",
+          "venue": "Scotiabank Arena",
+          "date": "2026-07-18"
+        }
+      ],
+      "description": "The Weeknd is a Canadian singer-songwriter known for his dark, moody R&B and pop sound, with global hits like 'Blinding Lights' and 'Starboy'.",
+      "image": "https://live.staticflickr.com/7275/7083231965_3cc399878a_m.jpg"
+    },
+    {
+      "name": "Daft Punk",
+      "genre": "Electronic / House",
+      "concerts_2026": [],
+      "description": "Daft Punk was a French electronic music duo famous for pioneering house and electronic music with iconic albums like 'Discovery' and 'Random Access Memories'.",
+      "image": "https://live.staticflickr.com/6200/6118476376_6ac53e6e26_n.jpg"
+    },
+    {
+      "name": "The Chainsmokers",
+      "genre": "Electronic / Pop",
+      "concerts_2026": [
+        {
+          "city": "Las Vegas",
+          "venue": "Encore Beach Club",
+          "date": "2026-06-29"
+        }
+      ],
+      "description": "The Chainsmokers are an American DJ and production duo known for their blend of EDM and pop, with hits like 'Closer' and 'Don't Let Me Down'.",
+      "image": "https://live.staticflickr.com/8879/28734367746_b79317d096_n.jpg"
+    },
+    {
+      "name": "Korn",
+      "genre": "Nu Metal / Alternative Metal",
+      "concerts_2026": [
+        {
+          "city": "Los Angeles",
+          "venue": "The Forum",
+          "date": "2026-08-07"
+        }
+      ],
+      "description": "Korn is an American nu metal band recognized as pioneers of the genre, with heavy riffs and dark themes in songs like 'Freak on a Leash'.",
+      "image": "https://live.staticflickr.com/4052/4325862181_6f3922bcd8_n.jpg"
+    },
+    {
+      "name": "Young the Giant",
+      "genre": "Indie Rock / Alternative",
+      "concerts_2026": [
+        {
+          "city": "Seattle",
+          "venue": "Paramount Theatre",
+          "date": "2026-05-16"
+        }
+      ],
+      "description": "Young the Giant is an American indie rock band known for their melodic sound and songs like 'Cough Syrup' and 'My Body'.",
+      "image": "https://radioimg.audacy.com/aiu-media/GettyImages1827438242-afd6a0be-560e-4a10-8696-30f9e02ae3c5.jpg?width=800"
+    }
+  ]
 }
