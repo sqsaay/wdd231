@@ -18,9 +18,7 @@
     font-family: var(--body-font);
 }
 
-html{
-    color: var(--accent-color);
-}
+
 /*#region hamButton*/
 #nav-button {
     content: none;
