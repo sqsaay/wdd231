@@ -138,6 +138,7 @@ header p {
 
 /*#region home, artists, joinus basic stuff*/
 
+
 h1 {
     color: var(--accent-color);
     text-align: center;
@@ -332,10 +333,15 @@ input[type="submit"]:hover {
 
 /*Footer*/
 footer {
+    margin-top: 10px;
     background-color: var(--secondary-color);
     display: flex;
     flex-direction: column;
     text-align: center;
+}
+
+footer a{
+    color: var(--secondary-accent-color)
 }
 
 footer p {
@@ -384,7 +390,7 @@ footer p {
     float: right;
     font-size: 24px;
     cursor: pointer;
-    color: black;
+    color: var(--accent-color);
 }
 
 #modalName,
