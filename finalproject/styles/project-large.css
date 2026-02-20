@@ -183,5 +183,6 @@
         scroll-snap-align: none;
         min-height: 100px;
         margin-top: 15px;
+        color: var(--secondary-accent-color);
     }
 }
